@@ -43,6 +43,15 @@ api = "0.2"
     uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime_0.0.116_linux_noarch_cflinuxfs3_f4e68e4b.tgz"
     version = "0.0.116"
 
+  [[metadata.dependencies]]
+    id = "paketo-community/pipenv"
+    sha256 = "462bfea8972b801f09291b87048a3da269088d6c0ff7d2fc9da656b234193386"
+    source = "https://github.com/paketo-community/pipenv/archive/v0.0.92.tar.gz"
+    source_sha256 = "7ee484c6a2813e3180f1560ebaa05b7f849b71bff18148666343842d352953ed"
+    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.92/pipenv-0.0.92.tgz"
+    version = "0.0.92"
+
 [[order]]
 
   [[order.group]]
