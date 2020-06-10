@@ -1,0 +1,66 @@
+api = "0.2"
+
+[buildpack]
+  id = "paketo-community/python"
+  name = "Python Buildpack"
+
+[metadata]
+  include_files = ["buildpack.toml"]
+
+  [[metadata.dependencies]]
+    id = "org.cloudfoundry.conda"
+    sha256 = "2ea7cc081f2e4ffb651f988b750b27532fcd81db54d1b39aa900d91d229ccb5f"
+    source = "https://github.com/cloudfoundry/conda-cnb/archive/v0.0.84.tar.gz"
+    source_sha256 = "b0cc753963b2c7fa7bd3ebbe670acf8e5481ebcbf123b89efea8154c54b1429b"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.conda/org.cloudfoundry.conda_0.0.84_linux_noarch_any-stack_2ea7cc08.tgz"
+    version = "0.0.84"
+
+  [[metadata.dependencies]]
+    id = "org.cloudfoundry.pip"
+    sha256 = "e163e3dee636ed6ea3e77c595cb055f8e8ca4d91edd6811a0d602d9ca8e2c242"
+    source = "https://github.com/cloudfoundry/pip-cnb/archive/v0.0.108.tar.gz"
+    source_sha256 = "fa72ad3dda17184fe4a9bf802d2aa1a38e72a23abd8fed177fd134878e2d0725"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pip/org.cloudfoundry.pip_0.0.108_linux_noarch_any-stack_e163e3de.tgz"
+    version = "0.0.108"
+
+  [[metadata.dependencies]]
+    id = "org.cloudfoundry.pipenv"
+    sha256 = "a1a5dc848d1145bf7bb4fefdb7fa014e49211394f7a24df6e48f03fb08759ea5"
+    source = "https://github.com/cloudfoundry/pipenv-cnb/archive/v0.0.89.tar.gz"
+    source_sha256 = "2fb07cdc77aed0be4f5c3df72212abd6a72d7e87601aac721285767bb4f3ffb6"
+    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.pipenv/org.cloudfoundry.pipenv_0.0.89_linux_noarch_cflinuxfs3_a1a5dc84.tgz"
+    version = "0.0.89"
+
+  [[metadata.dependencies]]
+    id = "org.cloudfoundry.python-runtime"
+    sha256 = "f4e68e4bba4ab98ee69ac382cc3fe691494532b8a6312312f0c69315c4354e70"
+    source = "https://github.com/cloudfoundry/python-runtime-cnb/archive/v0.0.116.tar.gz"
+    source_sha256 = "492b45aecb636f656e3dda867db1d7e83fefa244ed0aa2ff9bf1c7c134b0a944"
+    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.python-runtime/org.cloudfoundry.python-runtime_0.0.116_linux_noarch_cflinuxfs3_f4e68e4b.tgz"
+    version = "0.0.116"
+
+[[order]]
+
+  [[order.group]]
+    id = "org.cloudfoundry.python-runtime"
+    version = "0.0.116"
+
+  [[order.group]]
+    id = "org.cloudfoundry.pipenv"
+    version = "0.0.89"
+    optional = true
+
+  [[order.group]]
+    id = "org.cloudfoundry.pip"
+    version = "0.0.108"
+    optional = true
+
+[[order]]
+
+  [[order.group]]
+    id = "org.cloudfoundry.conda"
+    version = "0.0.84"
