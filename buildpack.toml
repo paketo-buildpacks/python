@@ -52,6 +52,15 @@ api = "0.2"
     uri = "https://github.com/paketo-community/pip/releases/download/v0.0.111/pip-0.0.111.tgz"
     version = "0.0.111"
 
+  [[metadata.dependencies]]
+    id = "paketo-community/conda"
+    sha256 = "aed49bff39e81ea0c0a4bafba0d6d2e9833ab30b9f3967a5ab6eada08d53a2a6"
+    source = "https://github.com/paketo-community/conda/archive/v0.0.88.tar.gz"
+    source_sha256 = "09d7970f2db64860ff017a445030d6c814311f229ea911d864635acf0a3f0638"
+    stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
+    uri = "https://github.com/paketo-community/conda/releases/download/v0.0.88/conda-0.0.88.tgz"
+    version = "0.0.88"
+
 [[order]]
 
   [[order.group]]
