@@ -36,12 +36,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/pipenv"
-    sha256 = "462bfea8972b801f09291b87048a3da269088d6c0ff7d2fc9da656b234193386"
-    source = "https://github.com/paketo-community/pipenv/archive/v0.0.92.tar.gz"
-    source_sha256 = "7ee484c6a2813e3180f1560ebaa05b7f849b71bff18148666343842d352953ed"
+    sha256 = "d06ab4a0abff1e77099edf70e638a78b8deeb50d5a0eef2fd4d6474863ab7a1d"
+    source = "https://github.com/paketo-community/pipenv/archive/v0.0.93.tar.gz"
+    source_sha256 = "409d1207a6ce8b0e634588052ea58012e368aa49d16ec58eef3bcf40a14b9f11"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.92/pipenv-0.0.92.tgz"
-    version = "0.0.92"
+    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.93/pipenv-0.0.93.tgz"
+    version = "0.0.93"
 
 [[order]]
 
@@ -51,7 +51,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/pipenv"
-    version = "0.0.92"
+    version = "0.0.93"
     optional = true
 
   [[order.group]]
