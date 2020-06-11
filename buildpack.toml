@@ -52,12 +52,20 @@ api = "0.2"
   [[order.group]]
     id = "paketo-community/pipenv"
     version = "0.0.97"
-    optional = true
 
   [[order.group]]
     id = "paketo-community/pip"
     version = "0.0.115"
-    optional = true
+
+[[order]]
+
+  [[order.group]]
+    id = "paketo-community/python-runtime"
+    version = "0.0.128"
+
+  [[order.group]]
+    id = "paketo-community/pip"
+    version = "0.0.115"
 
 [[order]]
 
