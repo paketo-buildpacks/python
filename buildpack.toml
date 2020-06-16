@@ -9,58 +9,58 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/python-runtime"
-    sha256 = "0c1d287a5fffcb3ec46c9090bdf1acefaff5176efe8f561be1fc624be098d811"
-    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.119.tar.gz"
-    source_sha256 = "52c45280893e7fd0e739ded5163d72d49edfb1afe65e34d6746d238047aba6c1"
-    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.119/python-runtime-0.0.119.tgz"
-    version = "0.0.119"
+    sha256 = "9cf4177328ed69e8e5de386e6ab559b968152ddc554a07fd4af2ad3abb59ceb3"
+    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.124.tar.gz"
+    source_sha256 = "a8749d4fa5d99e911e79fd24271f92010b70bd0a8fd5b0c9a5453663aeccb2fd"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.124/python-runtime-0.0.124.tgz"
+    version = "0.0.124"
 
   [[metadata.dependencies]]
     id = "paketo-community/pip"
-    sha256 = "463714ded97379fb0c471a45f41868d3e3676acda4c38617e26d2e36407c741c"
-    source = "https://github.com/paketo-community/pip/archive/v0.0.111.tar.gz"
-    source_sha256 = "18e02ccf093108007bb3b5335e6f3e1d2760153536a03d8f27379a51f9116dcb"
-    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pip/releases/download/v0.0.111/pip-0.0.111.tgz"
-    version = "0.0.111"
+    sha256 = "7ecb8891e87bf11de9c0c6f25ff2fb354ae8ebf67a4c37a23c605dbbcc1f350f"
+    source = "https://github.com/paketo-community/pip/archive/v0.0.113.tar.gz"
+    source_sha256 = "1143977666a4455a703d6d7b44f0b6e783154a863223c422e583e68e26640460"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://github.com/paketo-community/pip/releases/download/v0.0.113/pip-0.0.113.tgz"
+    version = "0.0.113"
 
   [[metadata.dependencies]]
     id = "paketo-community/conda"
-    sha256 = "aed49bff39e81ea0c0a4bafba0d6d2e9833ab30b9f3967a5ab6eada08d53a2a6"
-    source = "https://github.com/paketo-community/conda/archive/v0.0.88.tar.gz"
-    source_sha256 = "09d7970f2db64860ff017a445030d6c814311f229ea911d864635acf0a3f0638"
+    sha256 = "1d90e1c6cfb7f7017ce05165355af00d85a252658792bdc25ec07670cd586f29"
+    source = "https://github.com/paketo-community/conda/archive/v0.0.89.tar.gz"
+    source_sha256 = "1e3c7e6a19039abcfe2acb2235c2a9dc3c5ddfa4899b04788c6223c2c759c367"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/conda/releases/download/v0.0.88/conda-0.0.88.tgz"
-    version = "0.0.88"
+    uri = "https://github.com/paketo-community/conda/releases/download/v0.0.89/conda-0.0.89.tgz"
+    version = "0.0.89"
 
   [[metadata.dependencies]]
     id = "paketo-community/pipenv"
-    sha256 = "462bfea8972b801f09291b87048a3da269088d6c0ff7d2fc9da656b234193386"
-    source = "https://github.com/paketo-community/pipenv/archive/v0.0.92.tar.gz"
-    source_sha256 = "7ee484c6a2813e3180f1560ebaa05b7f849b71bff18148666343842d352953ed"
-    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.92/pipenv-0.0.92.tgz"
-    version = "0.0.92"
+    sha256 = "a5fdbbdc8a8102597cd578d169169b13655f3c8db078c601010ac22e31e5455e"
+    source = "https://github.com/paketo-community/pipenv/archive/v0.0.94.tar.gz"
+    source_sha256 = "40a914431b0a5e0f0ff025424cd759a2331342a68d65ca27d907faa31d5b1a97"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.94/pipenv-0.0.94.tgz"
+    version = "0.0.94"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.119"
+    version = "0.0.124"
 
   [[order.group]]
     id = "paketo-community/pipenv"
-    version = "0.0.92"
+    version = "0.0.94"
     optional = true
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.0.111"
+    version = "0.0.113"
     optional = true
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/conda"
-    version = "0.0.88"
+    version = "0.0.89"
