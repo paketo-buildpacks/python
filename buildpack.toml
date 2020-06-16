@@ -9,12 +9,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/python-runtime"
-    sha256 = "0c1d287a5fffcb3ec46c9090bdf1acefaff5176efe8f561be1fc624be098d811"
-    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.119.tar.gz"
-    source_sha256 = "52c45280893e7fd0e739ded5163d72d49edfb1afe65e34d6746d238047aba6c1"
-    stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.119/python-runtime-0.0.119.tgz"
-    version = "0.0.119"
+    sha256 = "d626f61a213a54d2b233ff12e0c18c1a8350eab5fb149b4e3d9bb8c5a0d41c26"
+    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.122.tar.gz"
+    source_sha256 = "76255ca58acbdb021e54db78a4bca62fd3543ec6411a5d4971daaa06a964af3e"
+    stacks = ["io.buildpacks.stacks.bionic", "io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.122/python-runtime-0.0.122.tgz"
+    version = "0.0.122"
 
   [[metadata.dependencies]]
     id = "paketo-community/pip"
@@ -47,7 +47,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.119"
+    version = "0.0.122"
 
   [[order.group]]
     id = "paketo-community/pipenv"
