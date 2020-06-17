@@ -9,21 +9,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/python-runtime"
-    sha256 = "9cf4177328ed69e8e5de386e6ab559b968152ddc554a07fd4af2ad3abb59ceb3"
-    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.124.tar.gz"
-    source_sha256 = "a8749d4fa5d99e911e79fd24271f92010b70bd0a8fd5b0c9a5453663aeccb2fd"
+    sha256 = "75d0b16960d2f3e7013e0e535421a5501ff4a9815ecf77ebdcf4d21bd6e92810"
+    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.127.tar.gz"
+    source_sha256 = "692fe1b7c41d0779469f12ecfa384197a97d1ee4e1a6edf4be47dbf565ed8be9"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.124/python-runtime-0.0.124.tgz"
-    version = "0.0.124"
+    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.127/python-runtime-0.0.127.tgz"
+    version = "0.0.127"
 
   [[metadata.dependencies]]
     id = "paketo-community/pip"
-    sha256 = "7ecb8891e87bf11de9c0c6f25ff2fb354ae8ebf67a4c37a23c605dbbcc1f350f"
-    source = "https://github.com/paketo-community/pip/archive/v0.0.113.tar.gz"
-    source_sha256 = "1143977666a4455a703d6d7b44f0b6e783154a863223c422e583e68e26640460"
+    sha256 = "74c8a1973f9154e0a62620e5dc02cc4690aadab1a7937625b814c3087e9fb0ac"
+    source = "https://github.com/paketo-community/pip/archive/v0.0.115.tar.gz"
+    source_sha256 = "d46f24a59314ce5a8ccd88f642d28296bd79259b42e85b3a69b122404e92bdb0"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pip/releases/download/v0.0.113/pip-0.0.113.tgz"
-    version = "0.0.113"
+    uri = "https://github.com/paketo-community/pip/releases/download/v0.0.115/pip-0.0.115.tgz"
+    version = "0.0.115"
 
   [[metadata.dependencies]]
     id = "paketo-community/conda"
@@ -36,27 +36,27 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/pipenv"
-    sha256 = "a5fdbbdc8a8102597cd578d169169b13655f3c8db078c601010ac22e31e5455e"
-    source = "https://github.com/paketo-community/pipenv/archive/v0.0.94.tar.gz"
-    source_sha256 = "40a914431b0a5e0f0ff025424cd759a2331342a68d65ca27d907faa31d5b1a97"
+    sha256 = "ee8df874a1257d323b8dec8409b68589b2ce7b0dba754fa191f0f967f9d7c073"
+    source = "https://github.com/paketo-community/pipenv/archive/v0.0.97.tar.gz"
+    source_sha256 = "df7f74e030b39b098fef2b95cd6daffaf3a2a1aeb59cea16c069cbd7de3b3760"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.94/pipenv-0.0.94.tgz"
-    version = "0.0.94"
+    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.97/pipenv-0.0.97.tgz"
+    version = "0.0.97"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.124"
+    version = "0.0.127"
 
   [[order.group]]
     id = "paketo-community/pipenv"
-    version = "0.0.94"
+    version = "0.0.97"
     optional = true
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.0.113"
+    version = "0.0.115"
     optional = true
 
 [[order]]
