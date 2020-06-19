@@ -27,12 +27,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/conda"
-    sha256 = "683402388e0c0d159f14026db14f43310bd6a2db0c8d8a5ff460f88e563bce9b"
-    source = "https://github.com/paketo-community/conda/archive/v0.0.90.tar.gz"
-    source_sha256 = "54f64cbca9e43989b21c5df015d654706c886437f906bdb98f92f41f971d2645"
+    sha256 = "d4cd401b6cfa1c8e2a5ed731fcd0212e998b8964059d65c902fef4db44cac2b2"
+    source = "https://github.com/paketo-community/conda/archive/v0.0.94.tar.gz"
+    source_sha256 = "8d33a73d34d044acbe05360ac84402bdbc5af6436cc6d2d8629ced25f64cb86d"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/conda/releases/download/v0.0.90/conda-0.0.90.tgz"
-    version = "0.0.90"
+    uri = "https://github.com/paketo-community/conda/releases/download/v0.0.94/conda-0.0.94.tgz"
+    version = "0.0.94"
 
   [[metadata.dependencies]]
     id = "paketo-community/pipenv"
@@ -63,4 +63,4 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/conda"
-    version = "0.0.90"
+    version = "0.0.94"
