@@ -57,7 +57,16 @@ api = "0.2"
     id = "paketo-community/pip"
     version = "0.0.118"
     optional = true
+    
+[[order]]
 
+  [[order.group]]
+    id = "paketo-community/python-runtime"
+    version = "0.0.128"
+
+  [[order.group]]
+    id = "paketo-community/pip"
+    version = "0.0.118"
 
 [[order]]
 
