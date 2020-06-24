@@ -1,6 +1,8 @@
-# Ruby Cloud Native Buildpack
+# Python Paketo Buildpack
 
-The Python Cloud Native Buildpack provides a set of collaborating buildpacks that
+## `gcr.io/paketo-community/python`
+
+The Python Paketo Buildpack provides a set of collaborating buildpacks that
 enable the building of a Python-based application. These buildpacks include:
 - [Python Runtime CNB](https://github.com/paketo-community/python-runtime)
 - [Pipenv CNB](https://github.com/paketo-community/pipenv)
