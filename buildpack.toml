@@ -18,12 +18,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/pip"
-    sha256 = "74c8a1973f9154e0a62620e5dc02cc4690aadab1a7937625b814c3087e9fb0ac"
-    source = "https://github.com/paketo-community/pip/archive/v0.0.115.tar.gz"
-    source_sha256 = "d46f24a59314ce5a8ccd88f642d28296bd79259b42e85b3a69b122404e92bdb0"
+    sha256 = "a4009aae26808fcc0ef59cb0410ef796791aa3d20b4e9ba735095fb201552dff"
+    source = "https://github.com/paketo-community/pip/archive/v0.0.119.tar.gz"
+    source_sha256 = "8a8180de07926d3c9dfed7fd6b2e128c067d99e9f209055535bffae74c807035"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pip/releases/download/v0.0.115/pip-0.0.115.tgz"
-    version = "0.0.115"
+    uri = "https://github.com/paketo-community/pip/releases/download/v0.0.119/pip-0.0.119.tgz"
+    version = "0.0.119"
 
   [[metadata.dependencies]]
     id = "paketo-community/conda"
@@ -55,7 +55,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.0.115"
+    version = "0.0.119"
 
 [[order]]
 
@@ -65,7 +65,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.0.115"
+    version = "0.0.119"
 
 [[order]]
 
