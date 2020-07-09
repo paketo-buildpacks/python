@@ -36,12 +36,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/pipenv"
-    sha256 = "7d7dbaef56dbadbfd562410ffdab0095939f5f21fa6e38cf91f2ebe1fe1d8a88"
-    source = "https://github.com/paketo-community/pipenv/archive/v0.0.101.tar.gz"
-    source_sha256 = "74ee98afb4aa7663dcb3ac045247410f14d28555a9d6c454d2db29dbaf02dfe2"
+    sha256 = "7802e498a9fce55758d79913291623bd56991b4f79a33f7924d302a121848b05"
+    source = "https://github.com/paketo-community/pipenv/archive/v0.0.103.tar.gz"
+    source_sha256 = "042e5fbaeae42ac75bfcf18be51cf6653d42983b46419b09582ba9b027ffc3e6"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.101/pipenv-0.0.101.tgz"
-    version = "0.0.101"
+    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.103/pipenv-0.0.103.tgz"
+    version = "0.0.103"
 
 [[order]]
 
@@ -51,7 +51,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/pipenv"
-    version = "0.0.101"
+    version = "0.0.103"
 
   [[order.group]]
     id = "paketo-community/pip"
