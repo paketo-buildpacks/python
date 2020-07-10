@@ -9,12 +9,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "paketo-community/python-runtime"
-    sha256 = "e7d7f0c99e7a4cf30733d9e388772bd8e500f8c450cc00e1881b4edeefdf2a24"
-    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.141.tar.gz"
-    source_sha256 = "0a2a4e9ff4d7344f9b18ce21c62f1596dae08eba288293f563d5e2dc940d3939"
+    sha256 = "f52c8263b6477ed897c1266dbf12bc55cc46d9e47c17d251772fdd3e87b7b21e"
+    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.144.tar.gz"
+    source_sha256 = "a35fb20ff9a25234239ba87dbbf8de70d8b76e83a1dbbc51d1bcece185d4d8d1"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.141/python-runtime-0.0.141.tgz"
-    version = "0.0.141"
+    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.144/python-runtime-0.0.144.tgz"
+    version = "0.0.144"
 
   [[metadata.dependencies]]
     id = "paketo-community/pip"
@@ -47,7 +47,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.141"
+    version = "0.0.144"
 
   [[order.group]]
     id = "paketo-community/pipenv"
@@ -61,7 +61,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.141"
+    version = "0.0.144"
 
   [[order.group]]
     id = "paketo-community/pip"
