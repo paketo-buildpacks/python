@@ -7,42 +7,6 @@ api = "0.2"
 [metadata]
   include_files = ["buildpack.toml"]
 
-  [[metadata.dependencies]]
-    id = "paketo-community/python-runtime"
-    sha256 = "aa0780b4647aa0e34ec8f3c98ec4b77a5bcfa7c4125f62960585a927d0639bd9"
-    source = "https://github.com/paketo-community/python-runtime/archive/v0.0.146.tar.gz"
-    source_sha256 = "1aaa34e639f1201d77ff36cc1db086cf834bc0f1307e0f3fb2f38eae5947c901"
-    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/python-runtime/releases/download/v0.0.146/python-runtime-0.0.146.tgz"
-    version = "0.0.146"
-
-  [[metadata.dependencies]]
-    id = "paketo-community/pip"
-    sha256 = "beb587fc1b654363ec31b25bc961e78bbc9e877a28a0984dfe706a8bb9131c78"
-    source = "https://github.com/paketo-community/pip/archive/v0.0.122.tar.gz"
-    source_sha256 = "b9dd206d327d7eca6fe10fe9be056ebc6db7bac3b4b0c0accc813464ac771a90"
-    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pip/releases/download/v0.0.122/pip-0.0.122.tgz"
-    version = "0.0.122"
-
-  [[metadata.dependencies]]
-    id = "paketo-community/conda"
-    sha256 = "7267a9751ea6db9dee8c6dc76e23abe9ae7ed5cfbd222e3cd233f163afb488d0"
-    source = "https://github.com/paketo-community/conda/archive/v0.0.97.tar.gz"
-    source_sha256 = "517f2bf9aef83f78604396adc483093f794ef9fb8b85b2a81a67f79431bc7069"
-    stacks = ["org.cloudfoundry.stacks.cflinuxfs3", "io.buildpacks.stacks.bionic"]
-    uri = "https://github.com/paketo-community/conda/releases/download/v0.0.97/conda-0.0.97.tgz"
-    version = "0.0.97"
-
-  [[metadata.dependencies]]
-    id = "paketo-community/pipenv"
-    sha256 = "cadc63eff5edec39a7614771deabb9e4815bcfb2732dd8daa824b9d3be13f5dd"
-    source = "https://github.com/paketo-community/pipenv/archive/v0.0.104.tar.gz"
-    source_sha256 = "30f1609b292bb67608acb8ea46d5a12f3d65082092b705af05df2cf0a85edb9e"
-    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://github.com/paketo-community/pipenv/releases/download/v0.0.104/pipenv-0.0.104.tgz"
-    version = "0.0.104"
-
 [[order]]
 
   [[order.group]]
