@@ -1,6 +1,5 @@
 [buildpack]
-uri = "build/buildpack.tgz"
-
+  uri = "build/buildpack.tgz"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/python-runtime:0.0.146"
@@ -9,7 +8,7 @@ uri = "build/buildpack.tgz"
   image = "gcr.io/paketo-community/pip:0.0.122"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/conda:0.0.97"
+  image = "gcr.io/paketo-community/conda:0.0.98"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/pipenv:0.0.104"
