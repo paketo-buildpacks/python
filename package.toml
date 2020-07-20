@@ -2,7 +2,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/python-runtime:0.0.149"
+  image = "gcr.io/paketo-community/python-runtime:0.0.150"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/pip:0.0.122"
