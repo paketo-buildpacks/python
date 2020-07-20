@@ -11,7 +11,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.149"
+    version = "0.0.150"
 
   [[order.group]]
     id = "paketo-community/pipenv"
@@ -19,20 +19,20 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.0.122"
+    version = "0.0.124"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.149"
+    version = "0.0.150"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.0.122"
+    version = "0.0.124"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/conda"
-    version = "0.0.98"
+    version = "0.0.99"
