@@ -8,7 +8,7 @@
   image = "gcr.io/paketo-community/pip:0.0.124"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/conda:0.0.100"
+  image = "gcr.io/paketo-community/conda:0.0.101"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/pipenv:0.0.106"
