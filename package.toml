@@ -5,7 +5,7 @@
   image = "gcr.io/paketo-community/python-runtime:0.0.155"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/pip:0.0.125"
+  image = "gcr.io/paketo-community/pip:0.0.127"
 
 [[dependencies]]
   image = "gcr.io/paketo-community/conda:0.0.101"
