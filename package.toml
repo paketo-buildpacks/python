@@ -11,4 +11,4 @@
   image = "gcr.io/paketo-community/conda:0.0.106"
 
 [[dependencies]]
-  image = "gcr.io/paketo-community/pipenv:0.0.110"
+  image = "gcr.io/paketo-community/pipenv:0.0.111"
