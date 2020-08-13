@@ -2,7 +2,7 @@ api = "0.2"
 
 [buildpack]
   id = "paketo-community/python"
-  name = "Python Buildpack"
+  name = "Paketo Python Buildpack"
 
 [metadata]
   include_files = ["buildpack.toml"]
