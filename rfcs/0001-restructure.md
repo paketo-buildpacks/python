@@ -139,8 +139,8 @@ what users expect. The exisitng `pipenv` buildpack was transforming the
 build process as part of that group.
 
 The new implementation creates separate layers for pip, pipenv, and python to
-install app dependencies without the need for the `requirements.txt` workaround
-we currently do. This involves a few configurations.
+install app dependencies, eliminating the need for the workaround described
+above. This involves a few configurations.
 
 The `pipenv install` command will make use of two flags:
 * The `--deploy` flag to ensure the Pipfile.lock is up to date, and
@@ -174,7 +174,9 @@ code.
 
 The `python-start` buildpack will deterministically set `python` as the default
 start command, which will start the Python REPL (read-eval-print-loop) at
-launch.  From there, users will be able to run a custom start command according
+launch. This will look like: `docker run -it <app-image> python`
+
+From there, users will be able to run a custom start command according
 to their needs and the structure of their app's source code. `python-start`
 also detects the app's dependencies and requires them at launch.
 
