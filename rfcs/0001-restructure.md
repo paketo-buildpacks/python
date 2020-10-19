@@ -64,7 +64,7 @@ The above implementation buildpacks will be structured into the following order 
     id = "paketo-community/python-start"
 
   [[order.group]]
-    id = "paketo-community/procfile"
+    id = "paketo-buildpacks/procfile"
     optional = true
 
 [[order]]
@@ -82,7 +82,7 @@ The above implementation buildpacks will be structured into the following order 
     id = "paketo-community/python-start"
 
   [[order.group]]
-    id = "paketo-community/procfile"
+    id = "paketo-buildpacks/procfile"
     optional = true
 
 [[order]]
@@ -97,7 +97,7 @@ The above implementation buildpacks will be structured into the following order 
     id = "paketo-community/python-start"
 
   [[order.group]]
-    id = "paketo-community/procfile"
+    id = "paketo-buildpacks/procfile"
     optional = true
 
 [[order]]
@@ -109,7 +109,7 @@ The above implementation buildpacks will be structured into the following order 
     id = "paketo-community/python-start"
 
   [[order.group]]
-    id = "paketo-community/procfile"
+    id = "paketo-buildpacks/procfile"
     optional = true
 ```
 
