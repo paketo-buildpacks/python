@@ -5,6 +5,7 @@ api = "0.2"
   name = "Paketo Python Buildpack"
 
 [metadata]
+  include-files = ["buildpack.toml"]
 
 [[order]]
 
