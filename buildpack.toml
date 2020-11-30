@@ -5,13 +5,13 @@ api = "0.2"
   name = "Paketo Python Buildpack"
 
 [metadata]
-  include_files = ["buildpack.toml"]
+  include-files = ["buildpack.toml"]
 
 [[order]]
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.168"
+    version = "0.0.169"
 
   [[order.group]]
     id = "paketo-community/pipenv"
@@ -25,7 +25,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-community/python-runtime"
-    version = "0.0.168"
+    version = "0.0.169"
 
   [[order.group]]
     id = "paketo-community/pip"
