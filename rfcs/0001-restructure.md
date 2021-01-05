@@ -25,11 +25,11 @@ The current set of buildpacks will be reorganized into the following:
 
 * `pipenv`
   * provides: `pipenv`
-  * requires: `pip` and `cpython` during `build`
+  * requires: `cpython` and `pip` during `build`
 
 * `pipenv-install`
   * provides: `site-packages`
-  * requires: `cpython`, `pip`, and `pipenv` during `build`
+  * requires: `cpython` and `pipenv` during `build`
 
 * `miniconda`
   * provides: `conda`
@@ -50,9 +50,6 @@ The above implementation buildpacks will be structured into the following order 
 
   [[order.group]]
     id = "paketo-community/cpython"
-
-  [[order.group]]
-    id = "paketo-community/pip"
 
   [[order.group]]
     id = "paketo-community/pipenv"
@@ -134,7 +131,7 @@ their installations by running some form of `python -m pip install...`.
 
 The `pipenv-install` buildpack will be responsible for calling `pipenv install`
 directly, instead of delegating to `pip install`. This falls more inline with
-what users expect. The exisitng `pipenv` buildpack was transforming the
+what users expect. The existng `pipenv` buildpack was transforming the
 `Pipfile` into a `requirements.txt` file and then we'd run the `pip` buildpack
 build process as part of that group.
 
