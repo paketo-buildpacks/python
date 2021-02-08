@@ -3,13 +3,13 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/python-runtime:0.0.169"
+  uri = "docker://gcr.io/paketo-community/python-runtime:0.0.170"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/pip:0.0.139"
+  uri = "docker://gcr.io/paketo-community/pip:0.0.140"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/conda:0.0.112"
+  uri = "docker://gcr.io/paketo-community/conda:0.0.113"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/pipenv:0.0.117"
+  uri = "docker://gcr.io/paketo-community/pipenv:0.0.118"
