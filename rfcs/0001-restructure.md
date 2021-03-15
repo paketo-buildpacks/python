@@ -52,6 +52,9 @@ The above implementation buildpacks will be structured into the following order 
     id = "paketo-community/cpython"
 
   [[order.group]]
+    id = "paketo-community/pip"
+
+  [[order.group]]
     id = "paketo-community/pipenv"
 
   [[order.group]]
@@ -189,3 +192,8 @@ code for their app image to be usable, though they may still choose to do so.
 ## Source Material
 
 * https://docs.python.org/3/using/cmdline.html#environment-variables
+
+**Revision History**
+
+* (03/15/2021) Edit: Fix pip-env order grouping - pip was incorrectly removed
+  from the order group.
