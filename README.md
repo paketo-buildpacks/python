@@ -11,5 +11,3 @@ enable the building of a Python-based application. These buildpacks include:
 
 The buildpack supports building simple Python applications or applications which
 utilize either [Conda](https://conda.io) or [Pipenv](https://pypi.org/project/pipenv/) for managing their dependencies.
-
-<!-- Trivial change to trigger PR test re-run. Necessary because "re-run jobs" button not available on test PR action. Remove this afterward.->
