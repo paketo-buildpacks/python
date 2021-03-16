@@ -36,5 +36,6 @@ func TestIntegration(t *testing.T) {
 	suite("Conda", testConda)
 	suite("Pip", testPip)
 	suite("Pipenv", testPipenv)
+	suite("NoPackageManager", testNoPackageManager)
 	suite.Run(t)
 }
