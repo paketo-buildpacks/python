@@ -13,3 +13,12 @@
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-community/pipenv:0.0.119"
+
+[[dependencies]]
+  uri = "docker://gcr.io/paketo-community/cpython:0.1.0"
+
+[[dependencies]]
+  uri = "docker://gcr.io/paketo-community/python-start:0.1.0"
+
+[[dependencies]]
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:4.0.0"
