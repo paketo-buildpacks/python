@@ -71,10 +71,6 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 				Execute(image.ID)
 			Expect(err).NotTo(HaveOccurred())
 
-			cLogs, err := docker.Container.Logs.Execute(container.ID)
-			Expect(err).NotTo(HaveOccurred())
-			Expect(cLogs.String()).To(ContainSubstring("Hello"))
-
 			Eventually(func() string {
 				cLogs, err := docker.Container.Logs.Execute(container.ID)
 				Expect(err).NotTo(HaveOccurred())
@@ -105,10 +101,6 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 
 				container, err = docker.Container.Run.Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
-
-				cLogs, err := docker.Container.Logs.Execute(container.ID)
-				Expect(err).NotTo(HaveOccurred())
-				Expect(cLogs.String()).To(ContainSubstring("Hello"))
 
 				Eventually(func() string {
 					cLogs, err := docker.Container.Logs.Execute(container.ID)
