@@ -66,8 +66,7 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
 
 			container, err = docker.Container.Run.
-				WithEntrypoint("launcher").
-				WithCommand("python server.py").
+				WithCommand("hello.py").
 				Execute(image.ID)
 			Expect(err).NotTo(HaveOccurred())
 
@@ -85,7 +84,7 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 				Expect(err).NotTo(HaveOccurred())
 
 				Expect(ioutil.WriteFile(filepath.Join(source, "Procfile"),
-					[]byte("web: python server.py"), os.ModePerm)).
+					[]byte("web: python hello.py"), os.ModePerm)).
 					To(Succeed())
 
 				var logs fmt.Stringer
