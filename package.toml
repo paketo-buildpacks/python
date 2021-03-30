@@ -6,7 +6,7 @@
   uri = "docker://gcr.io/paketo-community/python-runtime:0.0.171"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/pip:0.0.140"
+  uri = "docker://gcr.io/paketo-community/pip:0.1.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-community/conda:0.0.113"
