@@ -45,7 +45,7 @@ api = "0.4"
 
   [[order.group]]
     id = "paketo-community/python-start"
-    version = "0.2.0"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
