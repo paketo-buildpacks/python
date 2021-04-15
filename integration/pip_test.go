@@ -82,8 +82,11 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 			Expect(err).NotTo(HaveOccurred())
 			Expect(string(content)).To(ContainSubstring("Hello, World with pip!"))
 
-			Expect(logs).To(ContainLines(ContainSubstring("Python Runtime Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("CPython Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Pip Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Pip Install Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
 		})
 	})
 }
