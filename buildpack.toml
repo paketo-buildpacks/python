@@ -19,7 +19,7 @@ api = "0.4"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.1.0"
+    version = "0.1.1"
 
 [[order]]
 
@@ -29,7 +29,7 @@ api = "0.4"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.1.0"
+    version = "0.1.1"
 
   [[order.group]]
     id = "paketo-community/pip-install"
