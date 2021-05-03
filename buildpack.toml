@@ -10,16 +10,29 @@ api = "0.4"
 [[order]]
 
   [[order.group]]
-    id = "paketo-community/python-runtime"
-    version = "0.0.171"
-
-  [[order.group]]
-    id = "paketo-community/pipenv"
-    version = "0.0.119"
+    id = "paketo-community/cpython"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.0.140"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "paketo-community/pipenv"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "paketo-community/pipenv-install"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "paketo-community/python-start"
+    version = "0.3.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "4.1.0"
 
 [[order]]
 
