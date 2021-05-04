@@ -11,11 +11,11 @@ api = "0.4"
 
   [[order.group]]
     id = "paketo-community/cpython"
-    version = "0.4.0"
+    version = "0.4.1"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.1.1"
+    version = "0.2.0"
 
   [[order.group]]
     id = "paketo-community/pipenv"
@@ -38,11 +38,11 @@ api = "0.4"
 
   [[order.group]]
     id = "paketo-community/cpython"
-    version = "0.4.0"
+    version = "0.4.1"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.1.1"
+    version = "0.2.0"
 
   [[order.group]]
     id = "paketo-community/pip-install"
@@ -67,7 +67,7 @@ api = "0.4"
 
   [[order.group]]
     id = "paketo-community/cpython"
-    version = "0.4.0"
+    version = "0.4.1"
 
   [[order.group]]
     id = "paketo-community/python-start"
