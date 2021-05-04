@@ -18,7 +18,7 @@
   uri = "docker://gcr.io/paketo-community/pip-install:0.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/python-start:0.3.0"
+  uri = "docker://gcr.io/paketo-community/python-start:0.4.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-community/conda:0.0.113"
