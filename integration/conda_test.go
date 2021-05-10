@@ -82,7 +82,10 @@ func testConda(t *testing.T, context spec.G, it spec.S) {
 			Expect(err).NotTo(HaveOccurred())
 			Expect(string(content)).To(ContainSubstring("Hello, world!"))
 
-			Expect(logs).To(ContainLines(ContainSubstring("Conda Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Miniconda Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Conda Env Update Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
 		})
 	})
 }

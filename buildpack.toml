@@ -60,8 +60,20 @@ api = "0.4"
 [[order]]
 
   [[order.group]]
-    id = "paketo-community/conda"
-    version = "0.0.113"
+    id = "paketo-community/miniconda"
+    version = "0.2.0"
+
+  [[order.group]]
+    id = "paketo-community/conda-env-update"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "paketo-community/python-start"
+    version = "0.5.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    version = "4.1.0"
 
 [[order]]
 
