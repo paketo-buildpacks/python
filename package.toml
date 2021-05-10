@@ -24,7 +24,7 @@
   uri = "docker://gcr.io/paketo-community/miniconda:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/conda-env-update:0.1.0"
+  uri = "docker://gcr.io/paketo-community/conda-env-update:0.2.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:4.1.0"
