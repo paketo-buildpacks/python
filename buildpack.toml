@@ -1,4 +1,4 @@
-api = "0.4"
+api = "0.5"
 
 [buildpack]
   id = "paketo-community/python"
