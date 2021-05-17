@@ -73,6 +73,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
+    optional = true
     version = "4.1.0"
 
 [[order]]
