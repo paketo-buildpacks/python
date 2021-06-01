@@ -65,7 +65,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/conda-env-update"
-    version = "0.2.0"
+    version = "0.2.1"
 
   [[order.group]]
     id = "paketo-community/python-start"
