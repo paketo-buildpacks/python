@@ -19,15 +19,15 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/pipenv"
-    version = "0.1.0"
-
-  [[order.group]]
-    id = "paketo-community/pipenv-install"
     version = "0.2.0"
 
   [[order.group]]
+    id = "paketo-community/pipenv-install"
+    version = "0.2.1"
+
+  [[order.group]]
     id = "paketo-community/python-start"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -46,11 +46,11 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/pip-install"
-    version = "0.1.0"
+    version = "0.1.1"
 
   [[order.group]]
     id = "paketo-community/python-start"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -69,7 +69,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/python-start"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -84,7 +84,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/python-start"
-    version = "0.6.0"
+    version = "0.6.1"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
