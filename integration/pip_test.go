@@ -60,6 +60,9 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 			image, logs, err = pack.WithNoColor().Build.
 				WithBuildpacks(pythonBuildpack).
 				WithPullPolicy("never").
+				WithEnv(map[string]string{
+					"BPE_SOME_VARIABLE": "some-value",
+				}).
 				Execute(name, source)
 			Expect(err).NotTo(HaveOccurred(), logs.String())
 
@@ -87,6 +90,10 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).To(ContainLines(ContainSubstring("Pip Install Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
+
+			Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
+			Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
 		})
 	})
 }
