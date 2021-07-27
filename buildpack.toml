@@ -34,6 +34,11 @@ api = "0.5"
     optional = true
     version = "4.2.2"
 
+    [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "3.1.1"
+
 [[order]]
 
   [[order.group]]
@@ -57,6 +62,11 @@ api = "0.5"
     optional = true
     version = "4.2.2"
 
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "3.1.1"
+
 [[order]]
 
   [[order.group]]
@@ -76,6 +86,11 @@ api = "0.5"
     optional = true
     version = "4.2.2"
 
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "3.1.1"
+
 [[order]]
 
   [[order.group]]
@@ -90,3 +105,8 @@ api = "0.5"
     id = "paketo-buildpacks/procfile"
     optional = true
     version = "4.2.2"
+
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "3.1.1"
