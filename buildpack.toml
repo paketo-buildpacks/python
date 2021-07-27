@@ -34,7 +34,7 @@ api = "0.5"
     optional = true
     version = "4.2.2"
 
-    [[order.group]]
+  [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
     version = "3.1.1"
