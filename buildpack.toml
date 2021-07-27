@@ -23,7 +23,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/pipenv-install"
-    version = "0.2.1"
+    version = "0.2.2"
 
   [[order.group]]
     id = "paketo-community/python-start"
@@ -46,7 +46,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/pip-install"
-    version = "0.1.1"
+    version = "0.1.2"
 
   [[order.group]]
     id = "paketo-community/python-start"

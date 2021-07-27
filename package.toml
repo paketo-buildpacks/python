@@ -12,10 +12,10 @@
   uri = "docker://gcr.io/paketo-community/pipenv:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/pipenv-install:0.2.1"
+  uri = "docker://gcr.io/paketo-community/pipenv-install:0.2.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-community/pip-install:0.1.1"
+  uri = "docker://gcr.io/paketo-community/pip-install:0.1.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-community/python-start:0.6.1"
