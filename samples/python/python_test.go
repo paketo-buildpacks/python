@@ -31,7 +31,7 @@ func TestPython(t *testing.T) {
 
 	SetDefaultEventuallyTimeout(60 * time.Second)
 
-	suite := spec.New("Python", spec.Parallel(), spec.Report(report.Terminal{}))
+	suite = spec.New("Python", spec.Parallel(), spec.Report(report.Terminal{}))
 	for _, builder := range builders {
 		suite(fmt.Sprintf("Python with %s builder", builder), testPythonWithBuilder(builder))
 	}
