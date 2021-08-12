@@ -15,7 +15,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.4.1"
+    version = "0.5.0"
 
   [[order.group]]
     id = "paketo-community/pipenv"
@@ -47,7 +47,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/pip"
-    version = "0.4.1"
+    version = "0.5.0"
 
   [[order.group]]
     id = "paketo-community/pip-install"
