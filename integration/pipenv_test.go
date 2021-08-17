@@ -62,6 +62,7 @@ func testPipenv(t *testing.T, context spec.G, it spec.S) {
 				WithPullPolicy("never").
 				WithEnv(map[string]string{
 					"BPE_SOME_VARIABLE": "some-value",
+					"BP_IMAGE_LABELS":   "some-label=some-value",
 				}).
 				Execute(name, source)
 			Expect(err).NotTo(HaveOccurred(), logs.String())
@@ -92,9 +93,11 @@ func testPipenv(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
 
 			Expect(image.Buildpacks[6].Key).To(Equal("paketo-buildpacks/environment-variables"))
 			Expect(image.Buildpacks[6].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
+			Expect(image.Labels["some-label"]).To(Equal("some-value"))
 		})
 	})
 }
