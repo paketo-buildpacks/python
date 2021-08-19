@@ -1,8 +1,10 @@
 package integration_test
 
 import (
+	"crypto/tls"
+	"crypto/x509"
 	"fmt"
-	"io/ioutil"
+	"net/http"
 	"os"
 	"path/filepath"
 	"testing"
@@ -83,7 +85,7 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 				source, err = occam.Source(filepath.Join("testdata", "no_package_manager"))
 				Expect(err).NotTo(HaveOccurred())
 
-				Expect(ioutil.WriteFile(filepath.Join(source, "Procfile"),
+				Expect(os.WriteFile(filepath.Join(source, "Procfile"),
 					[]byte("web: python hello.py"), os.ModePerm)).
 					To(Succeed())
 
@@ -97,13 +99,14 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
 
+				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("CPython Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 
-				Expect(image.Buildpacks[3].Key).To(Equal("paketo-buildpacks/environment-variables"))
-				Expect(image.Buildpacks[3].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
+				Expect(image.Buildpacks[4].Key).To(Equal("paketo-buildpacks/environment-variables"))
+				Expect(image.Buildpacks[4].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
 
 				container, err = docker.Container.Run.Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
@@ -113,6 +116,84 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 					Expect(err).NotTo(HaveOccurred())
 					return cLogs.String()
 				}).Should(ContainSubstring("Hello"))
+			})
+		})
+
+		context("when using CA certificates", func() {
+			var client *http.Client
+
+			it.Before(func() {
+				var err error
+				source, err = occam.Source(filepath.Join("testdata", "ca_cert_apps"))
+				Expect(err).NotTo(HaveOccurred())
+
+				caCert, err := os.ReadFile(filepath.Join(source, "client_certs", "ca.pem"))
+				Expect(err).NotTo(HaveOccurred())
+
+				caCertPool := x509.NewCertPool()
+				caCertPool.AppendCertsFromPEM(caCert)
+
+				cert, err := tls.LoadX509KeyPair(
+					filepath.Join(source, "client_certs", "cert.pem"),
+					filepath.Join(source, "client_certs", "key.pem"))
+				Expect(err).NotTo(HaveOccurred())
+
+				client = &http.Client{
+					Transport: &http.Transport{
+						TLSClientConfig: &tls.Config{
+							RootCAs:      caCertPool,
+							Certificates: []tls.Certificate{cert},
+							MinVersion:   tls.VersionTLS12,
+						},
+					},
+				}
+			})
+
+			it("builds a working OCI image with a start command and uses a client-side CA cert for requests", func() {
+				var err error
+				var logs fmt.Stringer
+
+				image, logs, err = pack.WithNoColor().Build.
+					WithBuildpacks(pythonBuildpack).
+					WithPullPolicy("never").
+					Execute(name, filepath.Join(source, "no_package_manager"))
+				Expect(err).NotTo(HaveOccurred())
+
+				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("CPython Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
+
+				container, err = docker.Container.Run.
+					WithPublish("8080").
+					WithEnv(map[string]string{
+						"PORT":                 "8080",
+						"SERVICE_BINDING_ROOT": "/bindings",
+					}).
+					WithVolume(fmt.Sprintf("%s:/bindings/ca-certificates", filepath.Join(source, "bindings"))).
+					Execute(image.ID)
+				Expect(err).NotTo(HaveOccurred())
+
+				Eventually(func() string {
+					cLogs, err := docker.Container.Logs.Execute(container.ID)
+					Expect(err).NotTo(HaveOccurred())
+					return cLogs.String()
+				}).Should(
+					ContainSubstring("Added 1 additional CA certificate(s) to system truststore"),
+				)
+
+				request, err := http.NewRequest("GET", fmt.Sprintf("https://localhost:%s", container.HostPort("8080")), nil)
+				Expect(err).NotTo(HaveOccurred())
+
+				var response *http.Response
+				Eventually(func() error {
+					var err error
+					response, err = client.Do(request)
+					return err
+				}).Should(BeNil())
+				defer response.Body.Close()
+
+				Expect(response.StatusCode).To(Equal(http.StatusOK))
 			})
 		})
 	})
