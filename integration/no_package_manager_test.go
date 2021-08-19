@@ -79,8 +79,8 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 			}).Should(ContainSubstring("Hello"))
 		})
 
-		context("when using Procfile to set the start command", func() {
-			it("creates a working OCI image that starts the right process", func() {
+		context("when using optional utility buildpacks", func() {
+			it("creates a working OCI image that starts the right process and uses other utility buildpacks", func() {
 				var err error
 				source, err = occam.Source(filepath.Join("testdata", "no_package_manager"))
 				Expect(err).NotTo(HaveOccurred())
@@ -95,6 +95,7 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 					WithPullPolicy("never").
 					WithEnv(map[string]string{
 						"BPE_SOME_VARIABLE": "some-value",
+						"BP_IMAGE_LABELS":   "some-label=some-value",
 					}).
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
@@ -104,9 +105,11 @@ func testNoPackageManager(t *testing.T, context spec.G, it spec.S) {
 				Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
 				Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
 
 				Expect(image.Buildpacks[4].Key).To(Equal("paketo-buildpacks/environment-variables"))
 				Expect(image.Buildpacks[4].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
+				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 
 				container, err = docker.Container.Run.Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
