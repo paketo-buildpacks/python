@@ -16,7 +16,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/cpython"
-    version = "0.7.0"
+    version = "0.7.1"
 
   [[order.group]]
     id = "paketo-community/pip"
@@ -58,7 +58,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/cpython"
-    version = "0.7.0"
+    version = "0.7.1"
 
   [[order.group]]
     id = "paketo-community/pip"
@@ -130,7 +130,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-community/cpython"
-    version = "0.7.0"
+    version = "0.7.1"
 
   [[order.group]]
     id = "paketo-community/python-start"
