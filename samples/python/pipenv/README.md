@@ -2,7 +2,7 @@
 
 ## Building
 
-`pack build pipenv-sample --buildpack gcr.io/paketo-community/python`
+`pack build pipenv-sample --buildpack gcr.io/paketo-buildpacks/python`
 
 ## Running
 

@@ -4,15 +4,15 @@ Status: Image is up to date for paketobuildpacks/builder:base
 base-cnb: Pulling from paketobuildpacks/run
 Digest: sha256:a285e73bc3697bc58c228b22938bc81e9b11700e087fd9d44da5f42f14861812
 Status: Image is up to date for paketobuildpacks/run:base-cnb
-latest: Pulling from paketo-community/python
+latest: Pulling from paketo-buildpacks/python
 Digest: sha256:a7432356048bd4da607df43c94d8e48f1d58db484e453b406eb637918f10ceb9
-Status: Image is up to date for gcr.io/paketo-community/python:latest
+Status: Image is up to date for gcr.io/paketo-buildpacks/python:latest
 0.11.4: Pulling from buildpacksio/lifecycle
 Digest: sha256:7241fe488c54902bd0d2c95e664456d18d710bc2156383b50fc6786e0126218b
 Status: Image is up to date for buildpacksio/lifecycle:0.11.4
 ===> DETECTING
-[detector] paketo-community/cpython      0.6.0
-[detector] paketo-community/python-start 0.6.1
+[detector] paketo-buildpacks/cpython      0.6.0
+[detector] paketo-buildpacks/python-start 0.6.1
 [detector] paketo-buildpacks/procfile    4.2.2
 ===> ANALYZING
 [analyzer] Warning: Not restoring cached layer metadata, no cache flag specified.
@@ -32,7 +32,7 @@ Skipping 'restore' due to clearing cache
 [builder]       Completed in 7.643s
 [builder] 
 [builder]   Configuring environment
-[builder]     PYTHONPATH -> "/layers/paketo-community_cpython/cpython"
+[builder]     PYTHONPATH -> "/layers/paketo-buildpacks_cpython/cpython"
 [builder] 
 [builder] Paketo Python Start Buildpack 0.6.1
 [builder]   Assigning launch process
@@ -43,7 +43,7 @@ Skipping 'restore' due to clearing cache
 [builder]   Process types:
 [builder]     web: python server.py
 ===> EXPORTING
-[exporter] Reusing layer 'paketo-community/cpython:cpython'
+[exporter] Reusing layer 'paketo-buildpacks/cpython:cpython'
 [exporter] Adding 1/1 app layer(s)
 [exporter] Reusing layer 'launcher'
 [exporter] Reusing layer 'config'
@@ -55,5 +55,5 @@ Skipping 'restore' due to clearing cache
 [exporter] Saving no_pkg_mgr-sample...
 [exporter] *** Images (548024544ec3):
 [exporter]       no_pkg_mgr-sample
-[exporter] Adding cache layer 'paketo-community/cpython:cpython'
+[exporter] Adding cache layer 'paketo-buildpacks/cpython:cpython'
 Successfully built image 'no_pkg_mgr-sample'

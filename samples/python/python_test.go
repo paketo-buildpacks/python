@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/paketo-buildpacks/occam"
-	"github.com/paketo-community/python/samples/tests"
+	"github.com/paketo-buildpacks/python/samples/tests"
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
@@ -85,7 +85,7 @@ func testPythonWithBuilder(builder string) func(*testing.T, spec.G, spec.S) {
 					image, logs, err = pack.Build.
 						WithPullPolicy("never").
 						// WithBuilder(builder).
-						WithBuildpacks("gcr.io/paketo-community/python"). //revert to the above line once python is added
+						WithBuildpacks("gcr.io/paketo-buildpacks/python"). //revert to the above line once python is added
 						Execute(name, source)
 					Expect(err).ToNot(HaveOccurred(), logs.String)
 
@@ -114,7 +114,7 @@ func testPythonWithBuilder(builder string) func(*testing.T, spec.G, spec.S) {
 					image, logs, err = pack.Build.
 						WithPullPolicy("never").
 						// WithBuilder(builder).
-						WithBuildpacks("gcr.io/paketo-community/python"). //revert to the above line once python is added
+						WithBuildpacks("gcr.io/paketo-buildpacks/python"). //revert to the above line once python is added
 						Execute(name, source)
 					Expect(err).ToNot(HaveOccurred(), logs.String)
 
@@ -144,7 +144,7 @@ func testPythonWithBuilder(builder string) func(*testing.T, spec.G, spec.S) {
 					image, logs, err = pack.Build.
 						WithPullPolicy("never").
 						// WithBuilder(builder).
-						WithBuildpacks("gcr.io/paketo-community/python"). //revert to the above line once python is added
+						WithBuildpacks("gcr.io/paketo-buildpacks/python"). //revert to the above line once python is added
 						Execute(name, source)
 					Expect(err).ToNot(HaveOccurred(), logs.String)
 
@@ -175,7 +175,7 @@ func testPythonWithBuilder(builder string) func(*testing.T, spec.G, spec.S) {
 					image, logs, err = pack.Build.
 						WithPullPolicy("never").
 						// WithBuilder(builder).
-						WithBuildpacks("gcr.io/paketo-community/python"). //revert to the above line once python is added
+						WithBuildpacks("gcr.io/paketo-buildpacks/python"). //revert to the above line once python is added
 						Execute(name, source)
 					Expect(err).ToNot(HaveOccurred(), logs.String)
 

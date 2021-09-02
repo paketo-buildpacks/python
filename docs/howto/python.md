@@ -10,7 +10,7 @@ aliases:
 ---
 
 This documentation explains how to use the [Paketo Python
-Buildpack](https://github.com/paketo-community/python) to build applications
+Buildpack](https://github.com/paketo-buildpacks/python) to build applications
 for several common use-cases. For more in-depth description of the buildpack's
 behavior and configuration see the Python Buildpack Reference
 [documentation](/docs/reference/python-reference).
@@ -19,14 +19,14 @@ behavior and configuration see the Python Buildpack Reference
 To build a sample app locally with this buildpack using the pack CLI, run
 
 {{< code/copyable >}}
-git clone https://github.com/paketo-community/python
+git clone https://github.com/paketo-buildpacks/python
 cd samples/python/pip
-pack build my-app --buildpack gcr.io/paketo-community/python \
+pack build my-app --buildpack gcr.io/paketo-buildpacks/python \
   --builder paketobuildpacks/builder:base
 {{< /code/copyable >}}
 
 See
-[samples](https://github.com/paketo-community/python/tree/main/samples/python/pip)
+[samples](https://github.com/paketo-buildpacks/python/tree/main/samples/python/pip)
 for how to run the app.
 
 The Paketo Python Buildpack supports several popular configurations for Python apps.
@@ -38,7 +38,7 @@ The Python Cloud Native Buildpack allows you to specify a version of CPython 3
 can be specified via the `BP_CPYTHON_VERSION` environment variable during
 build. When specifying a version of CPython, you must choose a version that is
 available within the buildpack. The supported versions can be found in the
-[release notes](https://github.com/paketo-community/python/releases/latest).
+[release notes](https://github.com/paketo-buildpacks/python/releases/latest).
 
 You may set `BP_CPYTHON_VERSION` using a platfrom-specific option, or using
 a [`project.toml`](https://buildpacks.io/docs/app-developer-guide/using-project-descriptor)
@@ -78,7 +78,7 @@ The buidpack allows you to configure the version of Pip to be used in the
 installation process. You can set this using the `$BP_PIP_VERSION` variable
 during build. When specifying a version of Pip, you must choose a version that
 is available within the buildpack. The supported versions can be found in the
-[release notes](https://github.com/paketo-community/python/releases/latest).
+[release notes](https://github.com/paketo-buildpacks/python/releases/latest).
 
 ### <a id="package-management-with-pipenv"></a> Package Management with Pipenv
 
@@ -91,7 +91,7 @@ The buidpack allows you to configure the version of Pipenv to be used in the
 installation process. You can set this using the `$BP_PIPENV_VERSION` variable
 during build. When specifying a version of Pipenv, you must choose a version
 that is available within the buildpack. The supported versions can be found in the
-[release notes](https://github.com/paketo-community/python/releases/latest).
+[release notes](https://github.com/paketo-buildpacks/python/releases/latest).
 
 The buildpack also takes into consideration the Python version requirement
 specified by `Pipfile.lock`, but `BP_CPYTHON_VERSION` takes precedence over

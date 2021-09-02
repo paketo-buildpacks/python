@@ -1,7 +1,7 @@
 api = "0.5"
 
 [buildpack]
-  id = "paketo-community/python"
+  id = "paketo-buildpacks/python"
   name = "Paketo Python Buildpack"
 
 [metadata]
@@ -15,23 +15,23 @@ api = "0.5"
     version = "2.4.0"
 
   [[order.group]]
-    id = "paketo-community/cpython"
+    id = "paketo-buildpacks/cpython"
     version = "0.7.1"
 
   [[order.group]]
-    id = "paketo-community/pip"
+    id = "paketo-buildpacks/pip"
     version = "0.5.0"
 
   [[order.group]]
-    id = "paketo-community/pipenv"
+    id = "paketo-buildpacks/pipenv"
     version = "0.2.0"
 
   [[order.group]]
-    id = "paketo-community/pipenv-install"
+    id = "paketo-buildpacks/pipenv-install"
     version = "0.2.2"
 
   [[order.group]]
-    id = "paketo-community/python-start"
+    id = "paketo-buildpacks/python-start"
     version = "0.6.1"
 
   [[order.group]]
@@ -57,19 +57,19 @@ api = "0.5"
     version = "2.4.0"
 
   [[order.group]]
-    id = "paketo-community/cpython"
+    id = "paketo-buildpacks/cpython"
     version = "0.7.1"
 
   [[order.group]]
-    id = "paketo-community/pip"
+    id = "paketo-buildpacks/pip"
     version = "0.5.0"
 
   [[order.group]]
-    id = "paketo-community/pip-install"
+    id = "paketo-buildpacks/pip-install"
     version = "0.1.2"
 
   [[order.group]]
-    id = "paketo-community/python-start"
+    id = "paketo-buildpacks/python-start"
     version = "0.6.1"
 
   [[order.group]]
@@ -95,15 +95,15 @@ api = "0.5"
     version = "2.4.0"
 
   [[order.group]]
-    id = "paketo-community/miniconda"
+    id = "paketo-buildpacks/miniconda"
     version = "0.2.0"
 
   [[order.group]]
-    id = "paketo-community/conda-env-update"
+    id = "paketo-buildpacks/conda-env-update"
     version = "0.2.1"
 
   [[order.group]]
-    id = "paketo-community/python-start"
+    id = "paketo-buildpacks/python-start"
     version = "0.6.1"
 
   [[order.group]]
@@ -129,11 +129,11 @@ api = "0.5"
     version = "2.4.0"
 
   [[order.group]]
-    id = "paketo-community/cpython"
+    id = "paketo-buildpacks/cpython"
     version = "0.7.1"
 
   [[order.group]]
-    id = "paketo-community/python-start"
+    id = "paketo-buildpacks/python-start"
     version = "0.6.1"
 
   [[order.group]]

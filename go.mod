@@ -1,4 +1,4 @@
-module github.com/paketo-community/python
+module github.com/paketo-buildpacks/python
 
 go 1.14
 
