@@ -2,7 +2,7 @@
 
 ## Building
 
-`pack build conda-sample --buildpack gcr.io/paketo-community/python`
+`pack build conda-sample --buildpack gcr.io/paketo-buildpacks/python`
 
 ## Running
 

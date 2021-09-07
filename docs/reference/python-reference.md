@@ -9,14 +9,14 @@ menu:
 
 This reference documentation offers an in-depth description of the behavior and
 configuration options of the [Paketo Python
-Buildpack](https://github.com/paketo-community/python).  For explanations of
+Buildpack](https://github.com/paketo-buildpacks/python).  For explanations of
 how to use the buildpack for several common use-cases, see the Python How To
 [documentation](/docs/howto/python).
 
 ## Supported Dependencies
 The Python buildpack supports several versions of CPython, Pip and Pipenv.  For
 more details on the specific versions supported in a given buildpack version,
-see the [release notes](https://github.com/paketo-community/python/releases).
+see the [release notes](https://github.com/paketo-buildpacks/python/releases).
 
 ## <a id="environment-variables"></a> Buildpack-Set Environment Variables
 

@@ -1,7 +1,7 @@
 api = "0.5"
 
 [buildpack]
-  id = "paketo-community/python"
+  id = "paketo-buildpacks/python"
   name = "Paketo Python Buildpack"
 
 [metadata]
@@ -15,96 +15,24 @@ api = "0.5"
     version = "2.4.0"
 
   [[order.group]]
-    id = "paketo-community/cpython"
-    version = "0.7.1"
+    id = "paketo-buildpacks/cpython"
+    version = "0.7.2"
 
   [[order.group]]
-    id = "paketo-community/pip"
-    version = "0.5.0"
+    id = "paketo-buildpacks/pip"
+    version = "0.5.1"
 
   [[order.group]]
-    id = "paketo-community/pipenv"
-    version = "0.2.0"
-
-  [[order.group]]
-    id = "paketo-community/pipenv-install"
-    version = "0.2.2"
-
-  [[order.group]]
-    id = "paketo-community/python-start"
-    version = "0.6.1"
-
-  [[order.group]]
-    id = "paketo-buildpacks/procfile"
-    optional = true
-    version = "4.3.0"
-
-  [[order.group]]
-    id = "paketo-buildpacks/environment-variables"
-    optional = true
-    version = "3.2.0"
-
-  [[order.group]]
-    id = "paketo-buildpacks/image-labels"
-    optional = true
-    version = "3.2.0"
-
-[[order]]
-
-  [[order.group]]
-    id = "paketo-buildpacks/ca-certificates"
-    optional = true
-    version = "2.4.0"
-
-  [[order.group]]
-    id = "paketo-community/cpython"
-    version = "0.7.1"
-
-  [[order.group]]
-    id = "paketo-community/pip"
-    version = "0.5.0"
-
-  [[order.group]]
-    id = "paketo-community/pip-install"
-    version = "0.1.2"
-
-  [[order.group]]
-    id = "paketo-community/python-start"
-    version = "0.6.1"
-
-  [[order.group]]
-    id = "paketo-buildpacks/procfile"
-    optional = true
-    version = "4.3.0"
-
-  [[order.group]]
-    id = "paketo-buildpacks/environment-variables"
-    optional = true
-    version = "3.2.0"
-
-  [[order.group]]
-    id = "paketo-buildpacks/image-labels"
-    optional = true
-    version = "3.2.0"
-
-[[order]]
-
-  [[order.group]]
-    id = "paketo-buildpacks/ca-certificates"
-    optional = true
-    version = "2.4.0"
-
-  [[order.group]]
-    id = "paketo-community/miniconda"
-    version = "0.2.0"
-
-  [[order.group]]
-    id = "paketo-community/conda-env-update"
+    id = "paketo-buildpacks/pipenv"
     version = "0.2.1"
 
   [[order.group]]
-    id = "paketo-community/python-start"
-    version = "0.6.1"
+    id = "paketo-buildpacks/pipenv-install"
+    version = "0.2.3"
+
+  [[order.group]]
+    id = "paketo-buildpacks/python-start"
+    version = "0.6.2"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -129,12 +57,84 @@ api = "0.5"
     version = "2.4.0"
 
   [[order.group]]
-    id = "paketo-community/cpython"
-    version = "0.7.1"
+    id = "paketo-buildpacks/cpython"
+    version = "0.7.2"
 
   [[order.group]]
-    id = "paketo-community/python-start"
-    version = "0.6.1"
+    id = "paketo-buildpacks/pip"
+    version = "0.5.1"
+
+  [[order.group]]
+    id = "paketo-buildpacks/pip-install"
+    version = "0.2.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/python-start"
+    version = "0.6.2"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "4.3.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "3.2.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "3.2.0"
+
+[[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "2.4.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/miniconda"
+    version = "0.2.1"
+
+  [[order.group]]
+    id = "paketo-buildpacks/conda-env-update"
+    version = "0.2.2"
+
+  [[order.group]]
+    id = "paketo-buildpacks/python-start"
+    version = "0.6.2"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "4.3.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "3.2.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "3.2.0"
+
+[[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "2.4.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/cpython"
+    version = "0.7.2"
+
+  [[order.group]]
+    id = "paketo-buildpacks/python-start"
+    version = "0.6.2"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
