@@ -3,28 +3,28 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/cpython:0.7.1"
+  uri = "docker://gcr.io/paketo-buildpacks/cpython:0.7.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pip:0.5.0"
+  uri = "docker://gcr.io/paketo-buildpacks/pip:0.5.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pipenv:0.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/pipenv:0.2.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pipenv-install:0.2.2"
+  uri = "docker://gcr.io/paketo-buildpacks/pipenv-install:0.2.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pip-install:0.1.2"
+  uri = "docker://gcr.io/paketo-buildpacks/pip-install:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/python-start:0.6.1"
+  uri = "docker://gcr.io/paketo-buildpacks/python-start:0.6.2"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/miniconda:0.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/miniconda:0.2.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/conda-env-update:0.2.1"
+  uri = "docker://gcr.io/paketo-buildpacks/conda-env-update:0.2.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:4.3.0"
