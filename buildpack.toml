@@ -16,7 +16,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "0.7.2"
+    version = "0.7.3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -58,7 +58,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "0.7.2"
+    version = "0.7.3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -130,7 +130,7 @@ api = "0.5"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "0.7.2"
+    version = "0.7.3"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
