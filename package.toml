@@ -6,7 +6,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/cpython:0.7.3"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pip:0.6.0"
+  uri = "docker://gcr.io/paketo-buildpacks/pip:0.7.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/pipenv:0.2.1"
