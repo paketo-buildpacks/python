@@ -63,8 +63,9 @@ func testConda(t *testing.T, context spec.G, it spec.S) {
 				WithBuildpacks(pythonBuildpack).
 				WithPullPolicy("never").
 				WithEnv(map[string]string{
-					"BPE_SOME_VARIABLE": "some-value",
-					"BP_IMAGE_LABELS":   "some-label=some-value",
+					"BPE_SOME_VARIABLE":      "some-value",
+					"BP_IMAGE_LABELS":        "some-label=some-value",
+					"BP_LIVE_RELOAD_ENABLED": "true",
 				}).
 				Execute(name, source)
 			Expect(err).NotTo(HaveOccurred(), logs.String())
@@ -95,9 +96,10 @@ func testConda(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
 			Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Watchexec Buildpack")))
 
-			Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
-			Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
+			Expect(image.Buildpacks[6].Key).To(Equal("paketo-buildpacks/environment-variables"))
+			Expect(image.Buildpacks[6].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
 			Expect(image.Labels["some-label"]).To(Equal("some-value"))
 		})
 
