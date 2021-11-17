@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/cpython:0.7.3"
+  uri = "docker://gcr.io/paketo-buildpacks/cpython:0.7.4"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/pip:0.7.0"
