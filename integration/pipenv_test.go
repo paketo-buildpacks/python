@@ -159,7 +159,7 @@ func testPipenv(t *testing.T, context spec.G, it spec.S) {
 						"PORT":                 "8080",
 						"SERVICE_BINDING_ROOT": "/bindings",
 					}).
-					WithVolume(fmt.Sprintf("%s:/bindings/ca-certificates", filepath.Join(source, "bindings"))).
+					WithVolumes(fmt.Sprintf("%s:/bindings/ca-certificates", filepath.Join(source, "bindings"))).
 					Execute(image.ID)
 				Expect(err).NotTo(HaveOccurred())
 
