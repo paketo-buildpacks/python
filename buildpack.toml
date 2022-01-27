@@ -4,6 +4,10 @@ api = "0.6"
   id = "paketo-buildpacks/python"
   name = "Paketo Python Buildpack"
 
+  [[buildpack.licenses]]
+    type = "Apache-2.0"
+    uri = "https://github.com/paketo-buildpacks/python/blob/main/LICENSE"
+
 [metadata]
   include-files = ["buildpack.toml"]
 
