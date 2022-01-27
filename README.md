@@ -18,3 +18,5 @@ The buildpack supports building simple Python applications or applications which
 utilize either [Conda](https://conda.io),
 [Pipenv](https://pypi.org/project/pipenv/) or [Pip](https://pip.pypa.io/) for
 managing their dependencies.
+
+Check out the [Python Paketo Buildpack docs](https://paketo.io/docs/howto/python/) for sample usage and more information.
