@@ -21,7 +21,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.0.2"
+    version = "2.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -68,7 +68,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.0.2"
+    version = "2.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -111,7 +111,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.0.2"
+    version = "2.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/miniconda"
@@ -150,7 +150,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.0.2"
+    version = "2.1.1"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
