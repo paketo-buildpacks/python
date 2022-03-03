@@ -18,7 +18,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/pip-install:0.2.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/python-start:0.8.0"
+  uri = "docker://gcr.io/paketo-buildpacks/python-start:0.9.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/miniconda:0.2.1"
