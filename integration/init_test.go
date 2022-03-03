@@ -11,12 +11,15 @@ import (
 	"github.com/sclevine/spec/report"
 
 	. "github.com/onsi/gomega"
+	"github.com/onsi/gomega/format"
 )
 
 var pythonBuildpack string
 
 func TestIntegration(t *testing.T) {
 	Expect := NewWithT(t).Expect
+
+	format.MaxLength = 0
 
 	bash := pexec.NewExecutable("bash")
 	buffer := bytes.NewBuffer(nil)
@@ -36,6 +39,7 @@ func TestIntegration(t *testing.T) {
 	suite("Conda", testConda)
 	suite("Pip", testPip)
 	suite("Pipenv", testPipenv)
+	suite("PoetryDepOnly", testPoetryDepOnly)
 	suite("PoetryRun", testPoetryRun)
 	suite("NoPackageManager", testNoPackageManager)
 	suite.Run(t)
