@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/cpython:0.7.5"
+  uri = "docker://gcr.io/paketo-buildpacks/cpython:0.7.6"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/pip:0.7.0"
@@ -12,10 +12,10 @@
   uri = "docker://gcr.io/paketo-buildpacks/pipenv:0.2.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pipenv-install:0.2.3"
+  uri = "docker://gcr.io/paketo-buildpacks/pipenv-install:0.3.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/pip-install:0.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/pip-install:0.3.0"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/python-start:0.9.0"
@@ -36,16 +36,16 @@
   uri = "docker://gcr.io/paketo-buildpacks/poetry-run:0.0.1"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.0.3"
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.0.3"
+  uri = "docker://gcr.io/paketo-buildpacks/environment-variables:4.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.0.3"
+  uri = "docker://gcr.io/paketo-buildpacks/ca-certificates:3.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.0.3"
+  uri = "docker://gcr.io/paketo-buildpacks/image-labels:4.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/watchexec:2.2.0"
+  uri = "docker://gcr.io/paketo-buildpacks/watchexec:2.3.0"
