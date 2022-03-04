@@ -11,6 +11,7 @@ api = "0.6"
 [metadata]
   include-files = ["buildpack.toml"]
 
+# pipenv
 [[order]]
 
   [[order.group]]
@@ -58,6 +59,7 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
+# pip
 [[order]]
 
   [[order.group]]
@@ -101,6 +103,7 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
+# conda
 [[order]]
 
   [[order.group]]
@@ -140,6 +143,7 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
+# poetry run
 [[order]]
 
   [[order.group]]
@@ -182,6 +186,55 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
+# poetry (dep only)
+[[order]]
+
+  [[order.group]]
+    id = "paketo-buildpacks/ca-certificates"
+    optional = true
+    version = "3.1.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/watchexec"
+    optional = true
+    version = "2.3.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/cpython"
+    version = "0.7.6"
+
+  [[order.group]]
+    id = "paketo-buildpacks/pip"
+    version = "0.7.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/poetry"
+    version = "0.0.1"
+
+  [[order.group]]
+    id = "paketo-buildpacks/poetry-install"
+    version = "0.1.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/python-start"
+    version = "0.9.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/procfile"
+    optional = true
+    version = "5.1.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/environment-variables"
+    optional = true
+    version = "4.1.0"
+
+  [[order.group]]
+    id = "paketo-buildpacks/image-labels"
+    optional = true
+    version = "4.1.0"
+
+# no package manager
 [[order]]
 
   [[order.group]]
