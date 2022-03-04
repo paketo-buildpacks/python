@@ -11,7 +11,6 @@ api = "0.6"
 [metadata]
   include-files = ["buildpack.toml"]
 
-# pipenv
 [[order]]
 
   [[order.group]]
@@ -59,7 +58,6 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
-# pip
 [[order]]
 
   [[order.group]]
@@ -103,7 +101,6 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
-# conda
 [[order]]
 
   [[order.group]]
@@ -143,7 +140,6 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
-# poetry run
 [[order]]
 
   [[order.group]]
@@ -186,7 +182,6 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
-# poetry (dep only)
 [[order]]
 
   [[order.group]]
@@ -234,7 +229,6 @@ api = "0.6"
     optional = true
     version = "4.1.0"
 
-# no package manager
 [[order]]
 
   [[order.group]]
