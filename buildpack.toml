@@ -29,7 +29,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.7.0"
+    version = "0.8.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
@@ -37,7 +37,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
-    version = "0.3.0"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -76,7 +76,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.7.0"
+    version = "0.8.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
@@ -115,11 +115,11 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/miniconda"
-    version = "0.2.1"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/conda-env-update"
-    version = "0.2.2"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -153,7 +153,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.7.0"
+    version = "0.8.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
@@ -200,7 +200,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.7.0"
+    version = "0.8.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
