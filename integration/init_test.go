@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/paketo-buildpacks/packit/pexec"
+	"github.com/paketo-buildpacks/packit/v2/pexec"
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
