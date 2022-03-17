@@ -33,7 +33,7 @@
   uri = "docker://gcr.io/paketo-buildpacks/poetry-install:0.1.0"
 
 [[dependencies]]
-  uri = "docker://gcr.io/paketo-buildpacks/poetry-run:0.0.1"
+  uri = "docker://gcr.io/paketo-buildpacks/poetry-run:0.0.2"
 
 [[dependencies]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.1.0"
