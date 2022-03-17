@@ -1,12 +1,11 @@
 package integration_test
 
 import (
-	"bytes"
+	"os/exec"
 	"path/filepath"
 	"testing"
 	"time"
 
-	"github.com/paketo-buildpacks/packit/v2/pexec"
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"
 
@@ -21,14 +20,8 @@ func TestIntegration(t *testing.T) {
 
 	format.MaxLength = 0
 
-	bash := pexec.NewExecutable("bash")
-	buffer := bytes.NewBuffer(nil)
-	err := bash.Execute(pexec.Execution{
-		Args:   []string{"-c", "../scripts/package.sh --version 1.2.3"},
-		Stdout: buffer,
-		Stderr: buffer,
-	})
-	Expect(err).NotTo(HaveOccurred(), buffer.String)
+	output, err := exec.Command("bash", "-c", "../scripts/package.sh --version 1.2.3").CombinedOutput()
+	Expect(err).NotTo(HaveOccurred(), string(output))
 
 	pythonBuildpack, err = filepath.Abs("../build/buildpackage.cnb")
 	Expect(err).NotTo(HaveOccurred())
