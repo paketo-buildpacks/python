@@ -16,7 +16,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.1.0"
+    version = "3.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -63,7 +63,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.1.0"
+    version = "3.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -106,7 +106,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.1.0"
+    version = "3.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -145,7 +145,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.1.0"
+    version = "3.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -157,7 +157,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.1.2"
+    version = "0.1.3"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
@@ -187,7 +187,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.1.0"
+    version = "3.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -204,7 +204,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.1.2"
+    version = "0.1.3"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
@@ -234,7 +234,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.1.0"
+    version = "3.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
