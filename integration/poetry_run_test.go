@@ -63,7 +63,6 @@ func testPoetryRun(t *testing.T, context spec.G, it spec.S) {
 				WithEnv(map[string]string{
 					"BPE_SOME_VARIABLE":      "some-value",
 					"BP_IMAGE_LABELS":        "some-label=some-value",
-					"BP_LIVE_RELOAD_ENABLED": "true",
 				}).
 				Execute(name, source)
 			Expect(err).NotTo(HaveOccurred(), logs.String())
