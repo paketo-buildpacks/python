@@ -9,7 +9,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/pip@0.11.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.0.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.1.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pipenv-install@0.5.1"
