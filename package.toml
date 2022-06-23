@@ -27,7 +27,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/conda-env-update@0.4.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry@0.2.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/poetry@0.2.2"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-install@0.2.1"
