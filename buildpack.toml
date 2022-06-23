@@ -162,7 +162,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.2.1"
+    version = "0.2.2"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
@@ -209,7 +209,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.2.1"
+    version = "0.2.2"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
