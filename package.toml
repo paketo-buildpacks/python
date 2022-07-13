@@ -9,7 +9,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/pip@0.11.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.1.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.2.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pipenv-install@0.5.1"
@@ -36,7 +36,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.2.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.1.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.2.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.1.2"
@@ -48,4 +48,4 @@
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.1.2"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@2.5.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@2.5.2"

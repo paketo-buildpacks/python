@@ -21,7 +21,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.5.0"
+    version = "2.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -33,7 +33,7 @@ api = "0.6"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
-    version = "1.1.0"
+    version = "1.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
@@ -46,7 +46,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.1.2"
+    version = "5.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -68,7 +68,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.5.0"
+    version = "2.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -89,7 +89,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.1.2"
+    version = "5.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -111,7 +111,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.5.0"
+    version = "2.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/miniconda"
@@ -128,7 +128,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.1.2"
+    version = "5.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -150,7 +150,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.5.0"
+    version = "2.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -175,7 +175,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.1.2"
+    version = "5.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -197,7 +197,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.5.0"
+    version = "2.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -222,7 +222,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.1.2"
+    version = "5.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
@@ -244,7 +244,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.5.0"
+    version = "2.5.2"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -257,7 +257,7 @@ api = "0.6"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.1.2"
+    version = "5.2.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
