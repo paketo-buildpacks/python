@@ -33,7 +33,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-install@0.3.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.3.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.2.1"
