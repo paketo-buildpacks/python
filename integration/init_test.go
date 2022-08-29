@@ -28,12 +28,13 @@ func TestIntegration(t *testing.T) {
 
 	SetDefaultEventuallyTimeout(10 * time.Second)
 
-	suite := spec.New("Integration", spec.Report(report.Terminal{}))
+	suite := spec.New("Integration", spec.Parallel(), spec.Report(report.Terminal{}))
 	suite("Conda", testConda)
 	suite("Pip", testPip)
 	suite("Pipenv", testPipenv)
 	suite("PoetryDepOnly", testPoetryDepOnly)
 	suite("PoetryRun", testPoetryRun)
 	suite("NoPackageManager", testNoPackageManager)
+	suite("ReproducibleBuilds", testReproducibleBuilds)
 	suite.Run(t)
 }
