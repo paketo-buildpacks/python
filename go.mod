@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/onsi/gomega v1.20.1
-	github.com/paketo-buildpacks/occam v0.12.1
+	github.com/paketo-buildpacks/occam v0.13.0
 	github.com/sclevine/spec v1.4.0
 )
 
@@ -35,7 +35,7 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.3-0.20220114050600-8b9d41f48198 // indirect
 	github.com/opencontainers/runc v1.1.3 // indirect
-	github.com/paketo-buildpacks/packit/v2 v2.4.1 // indirect
+	github.com/paketo-buildpacks/packit/v2 v2.4.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/testcontainers/testcontainers-go v0.13.0 // indirect
