@@ -3,8 +3,8 @@ module github.com/paketo-buildpacks/python
 go 1.18
 
 require (
-	github.com/onsi/gomega v1.20.1
-	github.com/paketo-buildpacks/occam v0.12.1
+	github.com/onsi/gomega v1.20.2
+	github.com/paketo-buildpacks/occam v0.13.0
 	github.com/sclevine/spec v1.4.0
 )
 
@@ -35,14 +35,14 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.3-0.20220114050600-8b9d41f48198 // indirect
 	github.com/opencontainers/runc v1.1.3 // indirect
-	github.com/paketo-buildpacks/packit/v2 v2.4.1 // indirect
+	github.com/paketo-buildpacks/packit/v2 v2.4.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/testcontainers/testcontainers-go v0.13.0 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	go.opencensus.io v0.23.0 // indirect
-	golang.org/x/net v0.0.0-20220708220712-1185a9018129 // indirect
-	golang.org/x/sys v0.0.0-20220712014510-0a85c31ab51e // indirect
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/genproto v0.0.0-20220712132514-bdd2acd4974d // indirect
 	google.golang.org/grpc v1.48.0 // indirect

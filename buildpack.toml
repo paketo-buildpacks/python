@@ -2,7 +2,7 @@ api = "0.8"
 
 [buildpack]
   id = "paketo-buildpacks/python"
-  name = "Paketo Python Buildpack"
+  name = "Paketo Buildpack for Python"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
