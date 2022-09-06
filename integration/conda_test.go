@@ -89,13 +89,13 @@ func testConda(t *testing.T, context spec.G, it spec.S) {
 			Expect(err).NotTo(HaveOccurred())
 			Expect(string(content)).To(ContainSubstring("Hello, world!"))
 
-			Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Miniconda Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Conda Env Update Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Procfile Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Environment Variables Buildpack")))
-			Expect(logs).To(ContainLines(ContainSubstring("Image Labels Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CA Certificates")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Miniconda")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Conda Env Update")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Python Start")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Procfile")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Environment Variables")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Image Labels")))
 			Expect(logs).To(ContainLines(ContainSubstring("Watchexec Buildpack")))
 
 			Expect(image.Buildpacks[6].Key).To(Equal("paketo-buildpacks/environment-variables"))
@@ -143,9 +143,9 @@ func testConda(t *testing.T, context spec.G, it spec.S) {
 					Execute(name, filepath.Join(source, "conda"))
 				Expect(err).NotTo(HaveOccurred())
 
-				Expect(logs).To(ContainLines(ContainSubstring("CA Certificates Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Conda Env Update Buildpack")))
-				Expect(logs).To(ContainLines(ContainSubstring("Python Start Buildpack")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CA Certificates")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Conda Env Update")))
+				Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Python Start")))
 
 				container, err = docker.Container.Run.
 					WithPublish("8080").
