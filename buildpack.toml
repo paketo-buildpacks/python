@@ -33,7 +33,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
-    version = "1.5.0"
+    version = "1.6.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
@@ -119,7 +119,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/conda-env-update"
-    version = "0.5.2"
+    version = "0.6.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -162,7 +162,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.3.2"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
@@ -209,7 +209,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.3.2"
+    version = "0.4.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
