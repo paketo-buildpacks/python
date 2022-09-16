@@ -6,7 +6,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.4.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.14.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.15.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.5.0"
@@ -21,7 +21,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/python-start@0.12.2"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/miniconda@0.6.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/miniconda@0.7.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/conda-env-update@0.5.2"
