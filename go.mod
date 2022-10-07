@@ -3,7 +3,7 @@ module github.com/paketo-buildpacks/python
 go 1.18
 
 require (
-	github.com/onsi/gomega v1.20.2
+	github.com/onsi/gomega v1.21.1
 	github.com/paketo-buildpacks/occam v0.13.2
 	github.com/sclevine/spec v1.4.0
 )
