@@ -88,7 +88,7 @@ func testPoetryDepOnly(t *testing.T, context spec.G, it spec.S) {
 			Expect(string(content)).To(ContainSubstring("Hello, World!"))
 
 			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CA Certificates")))
-			Expect(logs).To(ContainLines(ContainSubstring("Watchexec Buildpack")))
+			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Watchexec")))
 			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for CPython")))
 			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Pip")))
 			Expect(logs).To(ContainLines(ContainSubstring("Buildpack for Poetry")))
