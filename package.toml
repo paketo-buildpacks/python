@@ -3,16 +3,16 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.4.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.4.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.15.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.15.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.7.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.7.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pipenv-install@0.6.4"
+  uri = "urn:cnb:registry:paketo-buildpacks/pipenv-install@0.6.5"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pip-install@0.5.4"
@@ -21,19 +21,19 @@
   uri = "urn:cnb:registry:paketo-buildpacks/python-start@0.12.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/miniconda@0.7.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/miniconda@0.7.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/conda-env-update@0.6.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/conda-env-update@0.6.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry@0.5.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/poetry@0.5.1"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-install@0.3.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.4"
+  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.5"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.4.0"
