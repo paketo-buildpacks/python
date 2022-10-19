@@ -21,27 +21,27 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.6.0"
+    version = "2.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.4.0"
+    version = "1.4.3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.15.0"
+    version = "0.15.3"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
-    version = "1.6.0"
+    version = "1.7.1"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
-    version = "0.6.2"
+    version = "0.6.5"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.12.2"
+    version = "0.12.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -68,23 +68,23 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.6.0"
+    version = "2.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.4.0"
+    version = "1.4.3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.15.0"
+    version = "0.15.3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
-    version = "0.5.2"
+    version = "0.5.4"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.12.2"
+    version = "0.12.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -111,19 +111,19 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.6.0"
+    version = "2.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/miniconda"
-    version = "0.7.0"
+    version = "0.7.3"
 
   [[order.group]]
     id = "paketo-buildpacks/conda-env-update"
-    version = "0.6.0"
+    version = "0.6.3"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.12.2"
+    version = "0.12.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -150,27 +150,27 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.6.0"
+    version = "2.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.4.0"
+    version = "1.4.3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.15.0"
+    version = "0.15.3"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.4.0"
+    version = "0.5.1"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
-    version = "0.3.2"
+    version = "0.3.4"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-run"
-    version = "0.4.2"
+    version = "0.4.5"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -197,27 +197,27 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.6.0"
+    version = "2.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.4.0"
+    version = "1.4.3"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.15.0"
+    version = "0.15.3"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.4.0"
+    version = "0.5.1"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
-    version = "0.3.2"
+    version = "0.3.4"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.12.2"
+    version = "0.12.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
@@ -244,15 +244,15 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "2.6.0"
+    version = "2.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.4.0"
+    version = "1.4.3"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
-    version = "0.12.2"
+    version = "0.12.4"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
