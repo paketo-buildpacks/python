@@ -30,3 +30,9 @@ utilize either [Conda](https://conda.io),
 or [Poetry](https://python-poetry.org/) for managing their dependencies.
 
 Check out the [Python Paketo Buildpack docs](https://paketo.io/docs/howto/python/) for sample usage and more information.
+
+#### The Python buildpack is compatible with the following builder(s):
+- [Paketo Jammy Full Builder](https://github.com/paketo-buildpacks/builder-jammy-full)
+- [Paketo Bionic Full Builder](https://github.com/paketo-buildpacks/full-builder)
+- [Paketo Jammy Base Builder](https://github.com/paketo-buildpacks/builder-jammy-base)
+- [Paketo Bionic Base Builder](https://github.com/paketo-buildpacks/base-builder)
