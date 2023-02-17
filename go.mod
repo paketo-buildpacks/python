@@ -3,7 +3,7 @@ module github.com/paketo-buildpacks/python
 go 1.18
 
 require (
-	github.com/onsi/gomega v1.26.0
+	github.com/onsi/gomega v1.27.0
 	github.com/paketo-buildpacks/occam v0.15.1
 	github.com/sclevine/spec v1.4.0
 )
@@ -39,9 +39,9 @@ require (
 	github.com/testcontainers/testcontainers-go v0.17.0 // indirect
 	github.com/ulikunitz/xz v0.5.11 // indirect
 	golang.org/x/mod v0.7.0 // indirect
-	golang.org/x/net v0.5.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
-	golang.org/x/text v0.6.0 // indirect
+	golang.org/x/net v0.6.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/tools v0.4.0 // indirect
 	google.golang.org/genproto v0.0.0-20221227171554-f9683d7f8bef // indirect
 	google.golang.org/grpc v1.52.0 // indirect
