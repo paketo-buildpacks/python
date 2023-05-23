@@ -3,19 +3,19 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.8.8"
+  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.8.9"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.17.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.17.2"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.16.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.17.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pipenv-install@0.6.14"
+  uri = "urn:cnb:registry:paketo-buildpacks/pipenv-install@0.6.15"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pip-install@0.5.13"
+  uri = "urn:cnb:registry:paketo-buildpacks/pip-install@0.5.14"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/python-start@0.14.8"

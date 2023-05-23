@@ -25,19 +25,19 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.8.8"
+    version = "1.8.9"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.17.1"
+    version = "0.17.2"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
-    version = "1.16.0"
+    version = "1.17.0"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
-    version = "0.6.14"
+    version = "0.6.15"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -72,15 +72,15 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.8.8"
+    version = "1.8.9"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.17.1"
+    version = "0.17.2"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
-    version = "0.5.13"
+    version = "0.5.14"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -154,11 +154,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.8.8"
+    version = "1.8.9"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.17.1"
+    version = "0.17.2"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
@@ -201,11 +201,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.8.8"
+    version = "1.8.9"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.17.1"
+    version = "0.17.2"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
@@ -248,7 +248,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.8.8"
+    version = "1.8.9"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
