@@ -18,7 +18,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/pip-install@0.6.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/python-start@0.14.13"
+  uri = "urn:cnb:registry:paketo-buildpacks/python-start@0.14.14"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/miniconda@0.8.5"
@@ -33,7 +33,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-install@0.3.17"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.20"
+  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.21"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.6.4"
