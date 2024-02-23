@@ -137,8 +137,11 @@ function buildpackage::create() {
       --format file
     )
 
-
-  args+=("${flags[@]}")
+  if [ -z "${2}" ]; then
+    echo "********************* EMPTY: no flags"
+  else
+    args+=("${flags[@]}")
+  fi
 
   pack \
     buildpack package "${output}" \
