@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.11.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.13.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pip@0.20.1"
@@ -27,7 +27,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/conda-env-update@0.7.13"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry@0.8.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/poetry@0.9.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-install@0.3.19"
@@ -36,16 +36,16 @@
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.22"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.6.8"
+  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.8.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.5.6"
+  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.6.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.6.7"
+  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.7.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.5.5"
+  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.6.0"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@2.8.7"
+  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.1.2"
