@@ -1,6 +1,8 @@
 module github.com/paketo-buildpacks/python
 
-go 1.18
+go 1.21
+
+toolchain go1.22.4
 
 require (
 	github.com/onsi/gomega v1.31.1
