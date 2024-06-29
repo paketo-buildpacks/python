@@ -16,7 +16,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.8.0"
+    version = "3.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -63,7 +63,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.8.0"
+    version = "3.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -106,7 +106,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.8.0"
+    version = "3.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -145,7 +145,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.8.0"
+    version = "3.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -192,7 +192,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.8.0"
+    version = "3.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -239,7 +239,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.8.0"
+    version = "3.8.2"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
