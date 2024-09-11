@@ -3,13 +3,13 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.13.8"
+  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.13.10"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.22.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.22.1"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.21.5"
+  uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.21.6"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pipenv-install@0.6.23"
@@ -33,19 +33,19 @@
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-install@0.3.23"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.30"
+  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.32"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.9.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.9.2"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.7.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.7.2"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.8.4"
+  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.8.5"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.7.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.7.2"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.2.2"
+  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.2.3"
