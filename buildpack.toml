@@ -170,7 +170,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-run"
-    version = "0.4.32"
+    version = "0.4.33"
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
