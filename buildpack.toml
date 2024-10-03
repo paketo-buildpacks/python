@@ -37,7 +37,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
-    version = "0.6.23"
+    version = "0.6.24"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
