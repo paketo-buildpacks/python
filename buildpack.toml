@@ -21,11 +21,11 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.2.4"
+    version = "3.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.11"
+    version = "1.13.12"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -68,11 +68,11 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.2.4"
+    version = "3.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.11"
+    version = "1.13.12"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -111,7 +111,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.2.4"
+    version = "3.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/miniconda"
@@ -150,11 +150,11 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.2.4"
+    version = "3.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.11"
+    version = "1.13.12"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -197,11 +197,11 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.2.4"
+    version = "3.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.11"
+    version = "1.13.12"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
@@ -244,11 +244,11 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.2.4"
+    version = "3.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.13.11"
+    version = "1.13.12"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
