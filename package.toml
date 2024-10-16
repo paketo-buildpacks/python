@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.13.11"
+  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.13.12"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pip@0.22.1"
@@ -48,4 +48,4 @@
   uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.7.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.2.4"
+  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@3.3.0"
