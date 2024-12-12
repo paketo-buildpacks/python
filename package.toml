@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.13.16"
+  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.13.17"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pip@0.22.1"
@@ -33,7 +33,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/poetry-install@0.3.23"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.33"
+  uri = "urn:cnb:registry:paketo-buildpacks/poetry-run@0.4.34"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.10.1"
