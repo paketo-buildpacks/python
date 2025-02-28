@@ -16,12 +16,12 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.9.0"
+    version = "3.9.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.4.0"
+    version = "3.4.1"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -51,24 +51,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.9.0"
+    version = "3.9.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.4.0"
+    version = "3.4.1"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -94,24 +94,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.9.0"
+    version = "3.9.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.4.0"
+    version = "3.4.1"
 
   [[order.group]]
     id = "paketo-buildpacks/miniconda"
@@ -133,24 +133,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.9.0"
+    version = "3.9.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.4.0"
+    version = "3.4.1"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -180,24 +180,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.9.0"
+    version = "3.9.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.4.0"
+    version = "3.4.1"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -227,24 +227,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.9.0"
+    version = "3.9.1"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
     optional = true
-    version = "3.4.0"
+    version = "3.4.1"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
@@ -262,9 +262,9 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.8.0"
+    version = "4.8.1"
