@@ -1,10 +1,9 @@
 module github.com/paketo-buildpacks/python
 
 go 1.23.1
-
 require (
 	github.com/onsi/gomega v1.36.3
-	github.com/paketo-buildpacks/occam v0.23.0
+	github.com/paketo-buildpacks/occam v0.24.0
 	github.com/sclevine/spec v1.4.0
 )
 
