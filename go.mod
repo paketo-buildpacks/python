@@ -1,10 +1,9 @@
 module github.com/paketo-buildpacks/python
 
 go 1.23.1
-
 require (
 	github.com/onsi/gomega v1.36.3
-	github.com/paketo-buildpacks/occam v0.23.0
+	github.com/paketo-buildpacks/occam v0.25.0
 	github.com/sclevine/spec v1.4.0
 )
 
@@ -67,12 +66,12 @@ require (
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.5.0 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
-	golang.org/x/net v0.37.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/sync v0.12.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250106144421-5f5ef82da422 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250115164207-1a7da9e5054f // indirect
-	google.golang.org/grpc v1.71.0 // indirect
+	google.golang.org/grpc v1.71.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
