@@ -137,8 +137,9 @@ function buildpackage::create() {
       --format file
     )
 
-
-  args+=("${flags[@]}")
+  if [ "${flags[@]}" != "" ]; then
+    args+=("${flags[@]}")
+  fi
 
   pack \
     buildpack package "${output}" \
