@@ -1,6 +1,6 @@
 module github.com/paketo-buildpacks/python
 
-go 1.24.2
+go 1.24.3
 
 require (
 	github.com/onsi/gomega v1.36.2
