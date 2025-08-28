@@ -6,7 +6,7 @@
   uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.16.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.22.1"
+  uri = "urn:cnb:registry:paketo-buildpacks/pip@0.22.2"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pipenv@1.21.6"
