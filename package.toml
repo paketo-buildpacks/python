@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.17.0"
+  uri = "urn:cnb:registry:paketo-buildpacks/cpython@1.17.1"
 
 [[dependencies]]
   uri = "urn:cnb:registry:paketo-buildpacks/pip@0.23.0"
