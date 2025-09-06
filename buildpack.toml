@@ -80,7 +80,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
-    version = "0.6.6"
+    version = "0.7.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -119,7 +119,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/conda-env-update"
-    version = "0.7.14"
+    version = "0.8.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
