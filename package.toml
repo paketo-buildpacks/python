@@ -27,7 +27,7 @@
   uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.2"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry:0.11.2"
+  uri = "docker://docker.io/paketobuildpacks/poetry:0.12.0"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.2"
