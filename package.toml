@@ -3,37 +3,37 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/cpython:1.17.5"
+  uri = "docker://docker.io/paketobuildpacks/cpython:1.17.6"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip:0.24.2"
+  uri = "docker://docker.io/paketobuildpacks/pip:0.24.3"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv:1.23.1"
+  uri = "docker://docker.io/paketobuildpacks/pipenv:1.23.2"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.2"
+  uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.3"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.2"
+  uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.3"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/python-start:0.15.3"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.2"
+  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.3"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.3"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry:0.12.1"
+  uri = "docker://docker.io/paketobuildpacks/poetry:0.12.2"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.3"
+  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.4"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.3"
+  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.4"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.11.3"
