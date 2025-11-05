@@ -25,15 +25,15 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.18.0"
+    version = "1.18.1"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.24.6"
+    version = "0.24.7"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv"
-    version = "1.23.5"
+    version = "1.23.6"
 
   [[order.group]]
     id = "paketo-buildpacks/pipenv-install"
@@ -72,15 +72,15 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.18.0"
+    version = "1.18.1"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.24.6"
+    version = "0.24.7"
 
   [[order.group]]
     id = "paketo-buildpacks/pip-install"
-    version = "0.7.7"
+    version = "0.7.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -154,19 +154,19 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.18.0"
+    version = "1.18.1"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.24.6"
+    version = "0.24.7"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.14.3"
+    version = "0.14.4"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
-    version = "0.6.8"
+    version = "0.6.9"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-run"
@@ -201,19 +201,19 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.18.0"
+    version = "1.18.1"
 
   [[order.group]]
     id = "paketo-buildpacks/pip"
-    version = "0.24.6"
+    version = "0.24.7"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry"
-    version = "0.14.3"
+    version = "0.14.4"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-install"
-    version = "0.6.8"
+    version = "0.6.9"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
@@ -248,7 +248,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/cpython"
-    version = "1.18.0"
+    version = "1.18.1"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
