@@ -3,13 +3,13 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.3"
+  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.4"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/pip:0.24.8"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv:1.23.8"
+  uri = "docker://docker.io/paketobuildpacks/pipenv:1.23.9"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.7"
