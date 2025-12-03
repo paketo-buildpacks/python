@@ -18,7 +18,7 @@
   uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.9"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-start:0.15.3"
+  uri = "docker://docker.io/paketobuildpacks/python-start:0.15.4"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.6"
