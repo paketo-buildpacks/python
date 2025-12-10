@@ -81,7 +81,7 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 
 			response, err := http.Get(fmt.Sprintf("http://localhost:%s", container.HostPort("8080")))
 			Expect(err).NotTo(HaveOccurred())
-			defer response.Body.Close()
+			defer func() { Expect(response.Body.Close()).ToNot(HaveOccurred()) }()
 
 			Expect(response.StatusCode).To(Equal(http.StatusOK))
 
@@ -178,7 +178,7 @@ func testPip(t *testing.T, context spec.G, it spec.S) {
 					response, err = client.Do(request)
 					return err
 				}).Should(BeNil())
-				defer response.Body.Close()
+				defer func() { Expect(response.Body.Close()).ToNot(HaveOccurred()) }()
 
 				Expect(response.StatusCode).To(Equal(http.StatusOK))
 			})
