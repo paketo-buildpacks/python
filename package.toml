@@ -30,7 +30,7 @@
   uri = "docker://docker.io/paketobuildpacks/poetry:0.14.5"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.11"
+  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.12"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.8"
