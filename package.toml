@@ -48,7 +48,7 @@
   uri = "docker://docker.io/paketobuildpacks/image-labels:4.11.0"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/watchexec:3.6.0"
+  uri = "docker://docker.io/paketobuildpacks/watchexec:3.6.1"
 
 [[targets]]
   arch = "amd64"
