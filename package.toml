@@ -3,13 +3,13 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.18"
+  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.19"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip:0.26.5"
+  uri = "docker://docker.io/paketobuildpacks/pip:0.26.6"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv:1.25.0"
+  uri = "docker://docker.io/paketobuildpacks/pipenv:1.26.0"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.20"
@@ -21,7 +21,7 @@
   uri = "docker://docker.io/paketobuildpacks/python-start:0.15.17"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.16"
+  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.17"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.17"
