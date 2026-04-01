@@ -3,13 +3,13 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.19"
+  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.20"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip:0.26.6"
+  uri = "docker://docker.io/paketobuildpacks/pip:0.26.7"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv:1.26.0"
+  uri = "docker://docker.io/paketobuildpacks/pipenv:1.26.1"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.20"
@@ -33,7 +33,7 @@
   uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.26"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.20"
+  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.21"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.1"
