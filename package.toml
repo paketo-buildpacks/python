@@ -36,6 +36,12 @@
   uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.24"
 
 [[dependencies]]
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-install:0.7.0"
+
+[[dependencies]]
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.2.4"
+
+[[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.2"
 
 [[dependencies]]
