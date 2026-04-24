@@ -1,0 +1,8 @@
+[project]
+name = "integration-test"
+version = "0.0.0"
+requires-python = "==3.10.*"
+dependencies = [
+    "Flask==3.0.0",
+    "gunicorn==23.0.0"
+]
