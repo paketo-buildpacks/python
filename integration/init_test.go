@@ -30,10 +30,12 @@ func TestIntegration(t *testing.T) {
 
 	suite := spec.New("Integration", spec.Report(report.Terminal{}), spec.Parallel())
 	suite("Conda", testConda)
+	suite("Pixi", testPixi)
 	suite("Pip", testPip)
 	suite("Pipenv", testPipenv)
 	suite("PoetryDepOnly", testPoetryDepOnly)
 	suite("PoetryRun", testPoetryRun)
+	suite("Uv", testUv)
 	suite("NoPackageManager", testNoPackageManager)
 	suite.Run(t)
 }

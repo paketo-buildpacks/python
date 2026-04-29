@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Idiap Research Institute <contact@idiap.ch>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
