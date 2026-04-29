@@ -1,7 +1,4 @@
 name: conda-test
-channels:
-  - defaults
 dependencies:
-- python=3.9
-- flask=2.0.2
-- Werkzeug==2.2.2
+- python=3.10
+- flask
