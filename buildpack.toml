@@ -252,11 +252,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-package-managers-install"
-    version = "0.7.0"
+    version = "0.9.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-package-managers-run"
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/poetry-run"
@@ -296,11 +296,11 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-package-managers-install"
-    version = "0.7.0"
+    version = "0.9.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-package-managers-run"
-    version = "0.2.4"
+    version = "0.3.0"
 
   [[order.group]]
     id = "paketo-buildpacks/python-start"
