@@ -252,7 +252,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-package-managers-install"
-    version = "0.10.0"
+    version = "0.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/python-package-managers-run"
@@ -296,7 +296,7 @@ api = "0.8"
 
   [[order.group]]
     id = "paketo-buildpacks/python-package-managers-install"
-    version = "0.10.0"
+    version = "0.10.1"
 
   [[order.group]]
     id = "paketo-buildpacks/python-package-managers-run"
