@@ -3,43 +3,43 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.28"
+  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.29"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip:0.26.15"
+  uri = "docker://docker.io/paketobuildpacks/pip:0.26.16"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv:1.28.3"
+  uri = "docker://docker.io/paketobuildpacks/pipenv:1.28.4"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.27"
+  uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.28"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.28"
+  uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.29"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-start:0.17.2"
+  uri = "docker://docker.io/paketobuildpacks/python-start:0.17.3"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.25"
+  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.26"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.25"
+  uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.26"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry:0.17.5"
+  uri = "docker://docker.io/paketobuildpacks/poetry:0.17.6"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.33"
+  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.34"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.28"
+  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.29"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-package-managers-install:0.13.0"
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-install:0.14.0"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.5.1"
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.5.2"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.3"
