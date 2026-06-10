@@ -29,7 +29,9 @@ The buildpack supports building simple Python applications or applications which
 utilize either [Conda](https://conda.io),
 [Pipenv](https://pypi.org/project/pipenv/),
 [Pip](https://pip.pypa.io/),
-or [Poetry](https://python-poetry.org/) for managing their dependencies.
+[Poetry](https://python-poetry.org/),
+[uv](https://github.com/astral-sh/uv),
+or [pixi](https://pixi.prefix.dev/latest/) for managing their dependencies.
 
 Check out the [Python Paketo Buildpack docs](https://paketo.io/docs/howto/python/) for sample usage and more information.
 
