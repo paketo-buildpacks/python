@@ -15,6 +15,8 @@ These buildpacks include:
 - [Poetry Install CNB](https://github.com/paketo-buildpacks/poetry-install)
 - [Poetry Run CNB](https://github.com/paketo-buildpacks/poetry-run)
 - [Python Start CNB](https://github.com/paketo-buildpacks/python-start)
+- [Python Package Managers Install CNB](https://github.com/paketo-buildpacks/python-package-managers-install)
+- [Python Package Managers Run CNB](github.com/paketo-buildpacks/python-package-managers-run)
 
 Additionally, the following utility buildpacks are included for all application types
 - [CA Certificates CNB](https://github.com/paketo-buildpacks/ca-certificates)
