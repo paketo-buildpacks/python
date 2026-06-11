@@ -15,6 +15,8 @@ These buildpacks include:
 - [Poetry Install CNB](https://github.com/paketo-buildpacks/poetry-install)
 - [Poetry Run CNB](https://github.com/paketo-buildpacks/poetry-run)
 - [Python Start CNB](https://github.com/paketo-buildpacks/python-start)
+- [Python Package Managers Install CNB](https://github.com/paketo-buildpacks/python-package-managers-install)
+- [Python Package Managers Run CNB](github.com/paketo-buildpacks/python-package-managers-run)
 
 Additionally, the following utility buildpacks are included for all application types
 - [CA Certificates CNB](https://github.com/paketo-buildpacks/ca-certificates)
@@ -27,7 +29,9 @@ The buildpack supports building simple Python applications or applications which
 utilize either [Conda](https://conda.io),
 [Pipenv](https://pypi.org/project/pipenv/),
 [Pip](https://pip.pypa.io/),
-or [Poetry](https://python-poetry.org/) for managing their dependencies.
+[Poetry](https://python-poetry.org/),
+[uv](https://github.com/astral-sh/uv),
+or [pixi](https://pixi.prefix.dev/latest/) for managing their dependencies.
 
 Check out the [Python Paketo Buildpack docs](https://paketo.io/docs/howto/python/) for sample usage and more information.
 
