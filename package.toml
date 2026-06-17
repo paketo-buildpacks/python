@@ -3,43 +3,43 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.30"
+  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.31"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip:0.26.17"
+  uri = "docker://docker.io/paketobuildpacks/pip:0.26.18"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/pipenv:1.28.5"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.29"
+  uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.30"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.30"
+  uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.31"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-start:0.17.4"
+  uri = "docker://docker.io/paketobuildpacks/python-start:0.17.5"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.27"
+  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.28"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.27"
+  uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.28"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry:0.17.7"
+  uri = "docker://docker.io/paketobuildpacks/poetry:0.17.8"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.35"
+  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.36"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.30"
+  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.31"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-package-managers-install:0.14.1"
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-install:0.15.0"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.5.3"
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.5.4"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.4"
