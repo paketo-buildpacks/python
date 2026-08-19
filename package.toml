@@ -3,43 +3,43 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.39"
+  uri = "docker://docker.io/paketobuildpacks/cpython:1.18.40"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip:0.28.1"
+  uri = "docker://docker.io/paketobuildpacks/pip:0.29.0"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv:1.29.1"
+  uri = "docker://docker.io/paketobuildpacks/pipenv:1.29.2"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.38"
+  uri = "docker://docker.io/paketobuildpacks/pipenv-install:0.7.39"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.39"
+  uri = "docker://docker.io/paketobuildpacks/pip-install:0.7.40"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-start:0.17.13"
+  uri = "docker://docker.io/paketobuildpacks/python-start:0.17.14"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.36"
+  uri = "docker://docker.io/paketobuildpacks/miniconda:0.11.37"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.36"
+  uri = "docker://docker.io/paketobuildpacks/conda-env-update:0.8.37"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry:0.17.16"
+  uri = "docker://docker.io/paketobuildpacks/poetry:0.17.17"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.44"
+  uri = "docker://docker.io/paketobuildpacks/poetry-install:0.6.45"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.39"
+  uri = "docker://docker.io/paketobuildpacks/poetry-run:0.5.40"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-package-managers-install:0.22.0"
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-install:0.23.0"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.5.12"
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.6.0"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.6"
