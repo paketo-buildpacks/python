@@ -39,7 +39,7 @@
   uri = "docker://docker.io/paketobuildpacks/python-package-managers-install:0.25.0"
 
 [[dependencies]]
-  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.6.2"
+  uri = "docker://docker.io/paketobuildpacks/python-package-managers-run:0.6.3"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.7"
