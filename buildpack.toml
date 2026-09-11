@@ -16,7 +16,7 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.12.7"
+    version = "3.13.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -46,24 +46,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.13.7"
+    version = "5.14.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.11.7"
+    version = "4.12.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.12.7"
+    version = "4.13.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.12.7"
+    version = "3.13.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -89,24 +89,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.13.7"
+    version = "5.14.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.11.7"
+    version = "4.12.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.12.7"
+    version = "4.13.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.12.7"
+    version = "3.13.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -128,24 +128,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.13.7"
+    version = "5.14.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.11.7"
+    version = "4.12.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.12.7"
+    version = "4.13.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.12.7"
+    version = "3.13.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -175,24 +175,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.13.7"
+    version = "5.14.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.11.7"
+    version = "4.12.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.12.7"
+    version = "4.13.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.12.7"
+    version = "3.13.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -222,24 +222,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.13.7"
+    version = "5.14.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.11.7"
+    version = "4.12.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.12.7"
+    version = "4.13.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.12.7"
+    version = "3.13.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -265,24 +265,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.13.7"
+    version = "5.14.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.11.7"
+    version = "4.12.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.12.7"
+    version = "4.13.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.12.7"
+    version = "3.13.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -309,24 +309,24 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.13.7"
+    version = "5.14.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.11.7"
+    version = "4.12.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.12.7"
+    version = "4.13.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/ca-certificates"
     optional = true
-    version = "3.12.7"
+    version = "3.13.0"
 
   [[order.group]]
     id = "paketo-buildpacks/watchexec"
@@ -344,14 +344,14 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.13.7"
+    version = "5.14.0"
 
   [[order.group]]
     id = "paketo-buildpacks/environment-variables"
     optional = true
-    version = "4.11.7"
+    version = "4.12.0"
 
   [[order.group]]
     id = "paketo-buildpacks/image-labels"
     optional = true
-    version = "4.12.7"
+    version = "4.13.0"
