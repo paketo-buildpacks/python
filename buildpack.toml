@@ -14,12 +14,12 @@ include-files = ['buildpack.toml']
 [[order]]
 [[order.group]]
 id = 'paketo-buildpacks/ca-certificates'
-version = '3.14.7'
+version = '3.14.8'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/watchexec'
-version = '3.11.8'
+version = '3.11.9'
 optional = true
 
 [[order.group]]
@@ -28,139 +28,139 @@ version = '1.19.1'
 
 [[order.group]]
 id = 'paketo-buildpacks/pip'
-version = '0.30.2'
+version = '0.30.3'
 
 [[order.group]]
 id = 'paketo-buildpacks/pipenv'
-version = '1.33.0'
+version = '1.33.1'
 
 [[order.group]]
 id = 'paketo-buildpacks/pipenv-install'
-version = '0.7.52'
-
-[[order.group]]
-id = 'paketo-buildpacks/tini'
-version = '0.5.0'
-optional = true
-
-[[order.group]]
-id = 'paketo-buildpacks/python-start'
-version = '0.18.8'
-
-[[order.group]]
-id = 'paketo-buildpacks/procfile'
-version = '5.15.9'
-optional = true
-
-[[order.group]]
-id = 'paketo-buildpacks/environment-variables'
-version = '4.12.4'
-optional = true
-
-[[order.group]]
-id = 'paketo-buildpacks/image-labels'
-version = '4.14.8'
-optional = true
-
-[[order]]
-[[order.group]]
-id = 'paketo-buildpacks/ca-certificates'
-version = '3.14.7'
-optional = true
-
-[[order.group]]
-id = 'paketo-buildpacks/watchexec'
-version = '3.11.8'
-optional = true
-
-[[order.group]]
-id = 'paketo-buildpacks/cpython'
-version = '1.19.1'
-
-[[order.group]]
-id = 'paketo-buildpacks/pip'
-version = '0.30.2'
-
-[[order.group]]
-id = 'paketo-buildpacks/pip-install'
 version = '0.7.53'
 
 [[order.group]]
 id = 'paketo-buildpacks/tini'
-version = '0.5.0'
+version = '0.5.1'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/python-start'
-version = '0.18.8'
+version = '0.18.9'
 
 [[order.group]]
 id = 'paketo-buildpacks/procfile'
-version = '5.15.9'
+version = '5.15.10'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/environment-variables'
-version = '4.12.4'
+version = '4.12.5'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/image-labels'
-version = '4.14.8'
+version = '4.14.9'
 optional = true
 
 [[order]]
 [[order.group]]
 id = 'paketo-buildpacks/ca-certificates'
-version = '3.14.7'
+version = '3.14.8'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/watchexec'
-version = '3.11.8'
+version = '3.11.9'
+optional = true
+
+[[order.group]]
+id = 'paketo-buildpacks/cpython'
+version = '1.19.1'
+
+[[order.group]]
+id = 'paketo-buildpacks/pip'
+version = '0.30.3'
+
+[[order.group]]
+id = 'paketo-buildpacks/pip-install'
+version = '0.7.54'
+
+[[order.group]]
+id = 'paketo-buildpacks/tini'
+version = '0.5.1'
+optional = true
+
+[[order.group]]
+id = 'paketo-buildpacks/python-start'
+version = '0.18.9'
+
+[[order.group]]
+id = 'paketo-buildpacks/procfile'
+version = '5.15.10'
+optional = true
+
+[[order.group]]
+id = 'paketo-buildpacks/environment-variables'
+version = '4.12.5'
+optional = true
+
+[[order.group]]
+id = 'paketo-buildpacks/image-labels'
+version = '4.14.9'
+optional = true
+
+[[order]]
+[[order.group]]
+id = 'paketo-buildpacks/ca-certificates'
+version = '3.14.8'
+optional = true
+
+[[order.group]]
+id = 'paketo-buildpacks/watchexec'
+version = '3.11.9'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/miniconda'
-version = '0.11.50'
+version = '0.11.51'
 
 [[order.group]]
 id = 'paketo-buildpacks/conda-env-update'
-version = '0.8.50'
+version = '0.8.51'
 
 [[order.group]]
 id = 'paketo-buildpacks/tini'
-version = '0.5.0'
+version = '0.5.1'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/python-start'
-version = '0.18.8'
+version = '0.18.9'
 
 [[order.group]]
 id = 'paketo-buildpacks/procfile'
-version = '5.15.9'
+version = '5.15.10'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/environment-variables'
-version = '4.12.4'
+version = '4.12.5'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/image-labels'
-version = '4.14.8'
+version = '4.14.9'
 optional = true
 
 [[order]]
 [[order.group]]
 id = 'paketo-buildpacks/ca-certificates'
-version = '3.14.7'
+version = '3.14.8'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/watchexec'
-version = '3.11.8'
+version = '3.11.9'
 optional = true
 
 [[order.group]]
@@ -169,44 +169,44 @@ version = '1.19.1'
 
 [[order.group]]
 id = 'paketo-buildpacks/pip'
-version = '0.30.2'
+version = '0.30.3'
 
 [[order.group]]
 id = 'paketo-buildpacks/poetry'
-version = '0.17.30'
+version = '0.17.31'
 
 [[order.group]]
 id = 'paketo-buildpacks/poetry-install'
-version = '0.6.58'
+version = '0.6.59'
 
 [[order.group]]
 id = 'paketo-buildpacks/poetry-run'
-version = '0.5.52'
+version = '0.5.53'
 
 [[order.group]]
 id = 'paketo-buildpacks/procfile'
-version = '5.15.9'
+version = '5.15.10'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/environment-variables'
-version = '4.12.4'
+version = '4.12.5'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/image-labels'
-version = '4.14.8'
+version = '4.14.9'
 optional = true
 
 [[order]]
 [[order.group]]
 id = 'paketo-buildpacks/ca-certificates'
-version = '3.14.7'
+version = '3.14.8'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/watchexec'
-version = '3.11.8'
+version = '3.11.9'
 optional = true
 
 [[order.group]]
@@ -215,49 +215,49 @@ version = '1.19.1'
 
 [[order.group]]
 id = 'paketo-buildpacks/pip'
-version = '0.30.2'
+version = '0.30.3'
 
 [[order.group]]
 id = 'paketo-buildpacks/poetry'
-version = '0.17.30'
+version = '0.17.31'
 
 [[order.group]]
 id = 'paketo-buildpacks/poetry-install'
-version = '0.6.58'
+version = '0.6.59'
 
 [[order.group]]
 id = 'paketo-buildpacks/tini'
-version = '0.5.0'
+version = '0.5.1'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/python-start'
-version = '0.18.8'
+version = '0.18.9'
 
 [[order.group]]
 id = 'paketo-buildpacks/procfile'
-version = '5.15.9'
+version = '5.15.10'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/environment-variables'
-version = '4.12.4'
+version = '4.12.5'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/image-labels'
-version = '4.14.8'
+version = '4.14.9'
 optional = true
 
 [[order]]
 [[order.group]]
 id = 'paketo-buildpacks/ca-certificates'
-version = '3.14.7'
+version = '3.14.8'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/watchexec'
-version = '3.11.8'
+version = '3.11.9'
 optional = true
 
 [[order.group]]
@@ -266,40 +266,40 @@ version = '1.19.1'
 
 [[order.group]]
 id = 'paketo-buildpacks/python-package-managers-install'
-version = '0.31.1'
+version = '0.31.2'
 
 [[order.group]]
 id = 'paketo-buildpacks/python-package-managers-run'
-version = '0.6.14'
+version = '0.6.15'
 
 [[order.group]]
 id = 'paketo-buildpacks/poetry-run'
-version = '0.5.52'
+version = '0.5.53'
 
 [[order.group]]
 id = 'paketo-buildpacks/procfile'
-version = '5.15.9'
+version = '5.15.10'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/environment-variables'
-version = '4.12.4'
+version = '4.12.5'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/image-labels'
-version = '4.14.8'
+version = '4.14.9'
 optional = true
 
 [[order]]
 [[order.group]]
 id = 'paketo-buildpacks/ca-certificates'
-version = '3.14.7'
+version = '3.14.8'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/watchexec'
-version = '3.11.8'
+version = '3.11.9'
 optional = true
 
 [[order.group]]
@@ -309,45 +309,45 @@ optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/python-package-managers-install'
-version = '0.31.1'
+version = '0.31.2'
 
 [[order.group]]
 id = 'paketo-buildpacks/python-package-managers-run'
-version = '0.6.14'
+version = '0.6.15'
 
 [[order.group]]
 id = 'paketo-buildpacks/tini'
-version = '0.5.0'
+version = '0.5.1'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/python-start'
-version = '0.18.8'
+version = '0.18.9'
 
 [[order.group]]
 id = 'paketo-buildpacks/procfile'
-version = '5.15.9'
+version = '5.15.10'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/environment-variables'
-version = '4.12.4'
+version = '4.12.5'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/image-labels'
-version = '4.14.8'
+version = '4.14.9'
 optional = true
 
 [[order]]
 [[order.group]]
 id = 'paketo-buildpacks/ca-certificates'
-version = '3.14.7'
+version = '3.14.8'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/watchexec'
-version = '3.11.8'
+version = '3.11.9'
 optional = true
 
 [[order.group]]
@@ -356,24 +356,24 @@ version = '1.19.1'
 
 [[order.group]]
 id = 'paketo-buildpacks/tini'
-version = '0.5.0'
+version = '0.5.1'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/python-start'
-version = '0.18.8'
+version = '0.18.9'
 
 [[order.group]]
 id = 'paketo-buildpacks/procfile'
-version = '5.15.9'
+version = '5.15.10'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/environment-variables'
-version = '4.12.4'
+version = '4.12.5'
 optional = true
 
 [[order.group]]
 id = 'paketo-buildpacks/image-labels'
-version = '4.14.8'
+version = '4.14.9'
 optional = true

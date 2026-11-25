@@ -5,58 +5,58 @@ uri = 'build/buildpack.tgz'
 uri = 'docker://docker.io/paketobuildpacks/cpython:1.19.1'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/pip:0.30.2'
+uri = 'docker://docker.io/paketobuildpacks/pip:0.30.3'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/pipenv:1.33.0'
+uri = 'docker://docker.io/paketobuildpacks/pipenv:1.33.1'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/pipenv-install:0.7.52'
+uri = 'docker://docker.io/paketobuildpacks/pipenv-install:0.7.53'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/pip-install:0.7.53'
+uri = 'docker://docker.io/paketobuildpacks/pip-install:0.7.54'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/python-start:0.18.8'
+uri = 'docker://docker.io/paketobuildpacks/python-start:0.18.9'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/miniconda:0.11.50'
+uri = 'docker://docker.io/paketobuildpacks/miniconda:0.11.51'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/conda-env-update:0.8.50'
+uri = 'docker://docker.io/paketobuildpacks/conda-env-update:0.8.51'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/poetry:0.17.30'
+uri = 'docker://docker.io/paketobuildpacks/poetry:0.17.31'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/poetry-install:0.6.58'
+uri = 'docker://docker.io/paketobuildpacks/poetry-install:0.6.59'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/poetry-run:0.5.52'
+uri = 'docker://docker.io/paketobuildpacks/poetry-run:0.5.53'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/python-package-managers-install:0.31.1'
+uri = 'docker://docker.io/paketobuildpacks/python-package-managers-install:0.31.2'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/python-package-managers-run:0.6.14'
+uri = 'docker://docker.io/paketobuildpacks/python-package-managers-run:0.6.15'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/procfile:5.15.9'
+uri = 'docker://docker.io/paketobuildpacks/procfile:5.15.10'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/environment-variables:4.12.4'
+uri = 'docker://docker.io/paketobuildpacks/environment-variables:4.12.5'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/ca-certificates:3.14.7'
+uri = 'docker://docker.io/paketobuildpacks/ca-certificates:3.14.8'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/image-labels:4.14.8'
+uri = 'docker://docker.io/paketobuildpacks/image-labels:4.14.9'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/watchexec:3.11.8'
+uri = 'docker://docker.io/paketobuildpacks/watchexec:3.11.9'
 
 [[dependencies]]
-uri = 'docker://docker.io/paketobuildpacks/tini:0.5.0'
+uri = 'docker://docker.io/paketobuildpacks/tini:0.5.1'
 
 [[targets]]
 os = 'linux'
